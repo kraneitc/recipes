@@ -1,0 +1,60 @@
+services:
+  updater:
+    image: node:24-alpine
+    container_name: recipes-updater
+    working_dir: /repo
+    restart: unless-stopped
+    volumes:
+      - repository:/repo
+      - generated-site:/site
+    command:
+      - /bin/sh
+      - -c
+      - |
+        apk add --no-cache git || exit 1
+
+        if [ ! -d /repo/.git ]; then
+          git clone --branch main --single-branch \
+            https://github.com/kraneitc/recipes.git /repo || exit 1
+        fi
+
+        while true; do
+          if git -C /repo fetch origin main &&
+             git -C /repo reset --hard origin/main; then
+
+            commit="$$(git -C /repo rev-parse HEAD)"
+            deployed="$$(cat /site/.deployed-commit 2>/dev/null || true)"
+
+            if [ "$$commit" != "$$deployed" ]; then
+              rm -rf /repo/_site
+
+              if cd /repo &&
+                 npm ci &&
+                 npm test &&
+                 npm run build; then
+
+                find /site -mindepth 1 -maxdepth 1 -exec rm -rf {} +
+                cp -a /repo/_site/. /site/
+                printf '%s\n' "$$commit" > /site/.deployed-commit
+                echo "Deployed commit $$commit"
+              else
+                echo "Build failed; continuing to serve the previous version"
+              fi
+            fi
+          fi
+
+          sleep 3600
+        done
+
+  web:
+    image: nginx:alpine
+    container_name: recipes-site
+    restart: unless-stopped
+    ports:
+      - "8080:80"
+    volumes:
+      - generated-site:/usr/share/nginx/html:ro
+
+volumes:
+  repository:
+  generated-site:
