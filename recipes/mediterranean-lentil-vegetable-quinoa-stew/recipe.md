@@ -38,7 +38,7 @@ last_made:
 - 5 garlic cloves, crushed
 - 2 tbsp tomato paste
 - 2 tsp ground cumin
-- 2 tsp smoked paprika
+- 2 tsp hot paprika
 - 1½ tsp dried oregano
 - ½ tsp ground cinnamon
 - Chilli flakes, to taste (1/4 tsp for mild, 1/2 tsp for warm, or 1 tsp for hot)
@@ -109,7 +109,7 @@ last_made:
 ### Herbs and spices
 
 - 2 tsp ground cumin
-- 2 tsp smoked paprika
+- 2 tsp hot paprika
 - 1 1/2 tsp dried oregano
 - 1/2 tsp ground cinnamon
 - Chilli flakes, up to 1 tsp according to preferred heat
