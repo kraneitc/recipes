@@ -34,7 +34,7 @@ last_made:
 
 ### Spices
 
-*1 small bowl (about 250 mL).*
+*1 small bowl (about 125 mL).*
 
 - 1 tsp ground cumin
 - 1 tsp hot paprika

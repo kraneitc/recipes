@@ -33,7 +33,7 @@ last_made:
 
 ### Aromatics and spices
 
-*1 small bowl (about 500 mL).*
+*1 small bowl (about 250 mL).*
 
 - 5 garlic cloves, crushed
 - 2 tbsp tomato paste
@@ -45,8 +45,6 @@ last_made:
 
 ### Lentil simmer
 
-*1 large bowl (at least 3 L) for the lentils, tomatoes, bay leaves, and dry stock powder; 1 kettle (at least 2 L) for the boiling water, kept separate from the bowl.*
-
 - 500 g dried brown or green lentils, rinsed
 - 2 × 400 g tins diced tomatoes
 - 2 bay leaves
@@ -55,24 +53,25 @@ last_made:
 
 ### Quinoa and remaining vegetables
 
-*1 large bowl (at least 2 L) for the quinoa, zucchini, and chickpeas; 1 measuring jug (at least 500 mL) for the extra water.*
+*1 large bowl (at least 2 L) for the quinoa, zucchini, and chickpeas.*
 
 - 1½ cups dry quinoa, rinsed thoroughly under running water
 - 1 medium zucchini, diced
 - 1 × 400 g tin chickpeas, drained and rinsed
 - Extra water, 125 mL at a time as needed, keep separate
 
-### Greens and seasoning
-
-*1 large bowl (at least 3 L) for the greens; 1 small bowl (about 250 mL) for the lemon juice and black pepper.*
+### Greens
 
 - 150–200 g baby spinach or chopped silverbeet
+
+### Lemon and pepper
+
+*1 small bowl (about 250 mL).*
+
 - Juice of 1 lemon
 - Freshly ground black pepper, to taste (1/4 tsp for mild, 1/2 tsp for warm, or 1 tsp for hot)
 
 ### Rest and serve
-
-*1 small serving bowl (about 500 mL) for the yoghurt; 1 small plate for the lemon wedges.*
 
 - Reduced-fat Greek yoghurt, to serve, optional
 - Lemon wedges, to serve, optional
@@ -132,17 +131,20 @@ last_made:
 
 ### Lentil simmer
 
-3. Add the prepared lentils, tomatoes, bay leaves, and dry stock powder from the lentil simmer bowl. Pour in 2 L boiling water directly from the kettle and stir well to dissolve the stock powder. Bring to a gentle boil, reduce the heat, and simmer partially covered for 25–30 minutes. Stir occasionally, particularly as the stew begins to thicken.
+3. Add the prepared lentils, tomatoes, bay leaves, and dry stock powder. Pour in the prepared boiling water and stir well to dissolve the stock powder. Bring to a gentle boil, reduce the heat, and simmer partially covered for 25–30 minutes. Stir occasionally, particularly as the stew begins to thicken.
 
 ### Quinoa and remaining vegetables
 
 4. Add the prepared quinoa, zucchini, and chickpeas. Stir well and simmer uncovered for 18–20 minutes, stirring every few minutes, until the quinoa and lentils are tender.
 5. If the stew becomes too thick before the quinoa is cooked, add the separate water 125 mL at a time. Keep the hot stew slightly looser than the desired final consistency because it will thicken as it cools.
 
-### Greens and seasoning
+### Greens
 
-6. Stir in the prepared greens, lemon juice, and black pepper. Cook for 2–3 minutes, just until the greens wilt.
-7. Remove the bay leaves.
+6. Stir in the prepared greens.
+
+### Lemon and pepper
+
+7. Add the prepared lemon juice and black pepper. Cook for 2–3 minutes, just until the greens wilt, then remove the bay leaves.
 
 ### Rest and serve
 
