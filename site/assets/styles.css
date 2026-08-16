@@ -1,13 +1,15 @@
 :root {
-  color-scheme: light;
-  --background: #f6f1e8;
-  --surface: #fffdf8;
-  --text: #2b2924;
-  --muted: #6d675d;
-  --accent: #8b3f2f;
-  --accent-dark: #642c21;
-  --border: #d9cfc0;
-  --shadow: 0 16px 40px rgb(63 45 30 / 9%);
+  color-scheme: dark;
+  --background: #151310;
+  --surface: #211e19;
+  --text: #f4ede2;
+  --muted: #b8ad9e;
+  --accent: #e29a78;
+  --accent-dark: #ffc3a3;
+  --border: #403a31;
+  --tag-background: #40271f;
+  --code-background: #2d2821;
+  --shadow: 0 16px 40px rgb(0 0 0 / 35%);
   font-family: Georgia, "Times New Roman", serif;
   line-height: 1.6;
 }
@@ -201,7 +203,7 @@ h3 {
 .tag-list li {
   padding: 0.25rem 0.65rem;
   color: var(--accent-dark);
-  background: #ead8cf;
+  background: var(--tag-background);
   border-radius: 99rem;
   font-family: system-ui, sans-serif;
   font-size: 0.8rem;
@@ -232,7 +234,7 @@ h3 {
 
 code {
   padding: 0.1em 0.35em;
-  background: #eee5d8;
+  background: var(--code-background);
   border-radius: 0.25rem;
   font-family: ui-monospace, monospace;
   font-size: 0.9em;
@@ -252,11 +254,17 @@ code {
 
 @media print {
   :root {
+    color-scheme: light;
     --background: #fff;
     --surface: #fff;
     --text: #000;
     --muted: #333;
+    --accent: #8b3f2f;
+    --accent-dark: #642c21;
     --border: #bbb;
+    --tag-background: #ead8cf;
+    --code-background: #eee5d8;
+    --shadow: none;
   }
 
   @page {
