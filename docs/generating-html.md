@@ -107,7 +107,7 @@ npm run build
 
 npm runs Eleventy. A successful build ends with a message stating how many files were written. The complete generated website will be in `_site/`.
 
-The build also validates every recipe. It stops with a descriptive error if required metadata is missing, time values are not integers, or ingredient and method groups do not match.
+The build also validates every recipe. It stops with a descriptive error if required metadata is missing, time values are not integers, an ingredient group lacks a container size, or ingredient and method groups do not match.
 
 ## Preview the website while editing
 
@@ -230,16 +230,22 @@ Every ingredient activity group must have an identically named method group in t
 
 ### Aromatic base
 
+*1 medium bowl (about 2 L).*
+
 - 1 onion, finely diced
 - 3 garlic cloves, minced
 - 20 g ginger, grated
 
 ### Braising liquid
 
+*1 medium jug (about 1 L).*
+
 - 400 mL coconut milk
 - 1 tbsp tamarind paste
 
 ### To finish
+
+*1 small bowl (about 250 mL) for the salt; 1 small plate for the lime wedges.*
 
 - 1 tsp salt
 - 1 lime, cut into wedges
@@ -258,6 +264,8 @@ Every ingredient activity group must have an identically named method group in t
 
 3. Season with the prepared finishing salt and serve with the lime wedges.
 ```
+
+Immediately below each ingredient activity heading, add an italic, unlabelled line naming a practical container size. When ingredients must remain separate, identify what goes in each container, and include an approximate capacity when useful. The build requires this line for every ingredient group. The generated page presents it as compact secondary text beside the more prominent activity heading.
 
 This one-to-one grouping lets ingredients be prepared into labelled bowls before cooking and lets the generator produce matching structured instruction sections.
 
@@ -332,6 +340,10 @@ tags:
 ### Ingredient and method groups do not match
 
 Each ingredient `###` heading must exactly match the corresponding method `###` heading. Activity headings contain names only, with no index numbers or `Group` prefixes. Method steps use ordinary whole numbers in one continuous sequence across all activity sections.
+
+### An ingredient group has no container size
+
+Immediately below every ingredient `###` heading, add an italic, unlabelled line naming a practical size, such as `*1 medium bowl (about 2 L).*`. Add an approximate capacity when useful and describe multiple containers when ingredients need to remain separate.
 
 ### Port 8080 is already in use
 

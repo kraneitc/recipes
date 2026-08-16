@@ -43,6 +43,7 @@ Every recipe should contain:
 Activity-based ingredient grouping is required for every recipe. The grouping must support mise en place: a cook should be able to measure, prepare, and, where safe, combine each group in its own bowl or container before starting the method.
 
 - Under `## Ingredients`, divide ingredients into named `###` sections based on the cooking activity in which they are used, such as `Aromatic base`, `Sauce`, or `To finish`.
+- Immediately below each ingredient activity heading, add an italic, unlabelled line that names the container size, such as `*1 medium bowl (about 2 L).*`. When the group needs more than one container, identify which separate ingredient goes in each. Include an approximate capacity when it helps distinguish the required size.
 - Do not include an index number or the word `Group` in an activity heading.
 - Put groups in the order they are first used in the method.
 - Within each group, list ingredients in the order they are used.
@@ -106,6 +107,7 @@ Before finishing a change:
 - Check that ingredient and method activity headings match, contain no index numbers or `Group` prefixes, and appear in the same order.
 - Check that method steps use ordinary whole numbers in one continuous sequence across all activity sections.
 - Check that each ingredient group can be staged in a bowl or container as written, noting anything that must remain separate.
+- Check that every ingredient group has an italic, unlabelled container-size line with a practical size and enough capacity for its ingredients.
 - Check headings, lists, links, and YAML front matter.
 - Run `npm run build` to validate recipe metadata and generate HTML when Node.js dependencies are available.
 - Review the Git diff for unintended changes.

@@ -22,8 +22,10 @@ function recipeData(overrides = {}) {
     },
     content: `<h2>Ingredients</h2>
 <h3>Base</h3>
+<p><em>1 medium bowl (about 2 L).</em></p>
 <ul><li>1 onion, diced</li><li>500 mL stock</li></ul>
 <h3>To finish</h3>
+<p><em>1 small bowl (about 250 mL).</em></p>
 <ul><li>1 tsp salt</li></ul>
 <h2>Method</h2>
 <h3>Base</h3>
@@ -86,5 +88,17 @@ test("rejects indexed activity headings", () => {
   assert.throws(
     () => render(recipeData({ content: indexedContent })),
     /must contain only the activity name/,
+  );
+});
+
+test("rejects an ingredient group without a prep-container size", () => {
+  const missingContainerContent = recipeData().content.replace(
+    '<p><em>1 medium bowl (about 2 L).</em></p>\n',
+    "",
+  );
+
+  assert.throws(
+    () => render(recipeData({ content: missingContainerContent })),
+    /ingredient activity section `Base` must include an italic container-size line/,
   );
 });

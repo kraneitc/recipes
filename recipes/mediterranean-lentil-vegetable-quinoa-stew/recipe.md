@@ -23,6 +23,8 @@ last_made:
 
 ### Vegetable base
 
+*1 large bowl (at least 3 L) for the vegetables; 1 small cup for the oil.*
+
 - 2 tbsp extra-virgin olive oil, keep separate
 - 2 large onions, diced
 - 3 carrots, diced
@@ -30,6 +32,8 @@ last_made:
 - 1 red capsicum, diced
 
 ### Aromatics and spices
+
+*1 small bowl (about 500 mL).*
 
 - 5 garlic cloves, crushed
 - 2 tbsp tomato paste
@@ -41,6 +45,8 @@ last_made:
 
 ### Lentil simmer
 
+*1 large bowl or jug (at least 4 L).*
+
 - 500 g dried brown or green lentils, rinsed
 - 2 × 400 g tins diced tomatoes
 - 1.5 L reduced-salt vegetable or chicken stock
@@ -49,6 +55,8 @@ last_made:
 
 ### Quinoa and remaining vegetables
 
+*1 large bowl (at least 2 L) for the quinoa, zucchini, and chickpeas; 1 measuring jug (at least 500 mL) for the extra water.*
+
 - 1½ cups dry quinoa, rinsed thoroughly under running water
 - 1 medium zucchini, diced
 - 1 × 400 g tin chickpeas, drained and rinsed
@@ -56,12 +64,16 @@ last_made:
 
 ### Greens and seasoning
 
+*1 large bowl (at least 3 L) for the greens; 1 small bowl (about 250 mL) for the lemon juice and black pepper; 1 small ramekin for the salt.*
+
 - 150–200 g baby spinach or chopped silverbeet
 - Juice of 1 lemon
 - Freshly ground black pepper, to taste
 - Fine salt, to taste if needed
 
 ### Rest and serve
+
+*1 small serving bowl (about 500 mL) for the yoghurt; 1 small plate for the lemon wedges.*
 
 - Reduced-fat Greek yoghurt, to serve, optional
 - Lemon wedges, to serve, optional

@@ -7,4 +7,4 @@ Use these files as starting points:
 
 Copy a template to its destination and replace all placeholder text.
 
-The recipe template is also the required input format for the HTML generator. Keep its front matter field names, heading hierarchy, ingredient groups, and matching method groups intact.
+The recipe template is also the required input format for the HTML generator. Keep its front matter field names, heading hierarchy, ingredient groups and container-size lines, and matching method groups intact.

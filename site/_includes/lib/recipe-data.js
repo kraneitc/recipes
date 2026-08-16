@@ -91,8 +91,23 @@ function collectGroups($, sectionName, listTag, data) {
       currentGroup = {
         name: current.text().trim(),
         items: [],
-        numbers: []
+        numbers: [],
+        prepContainer: undefined
       };
+    } else if (current[0].tagName === "p" && currentGroup && sectionName === "Ingredients") {
+      const emphasizedContainer = current.children().length === 1 && current.children("em").length === 1;
+      const containerText = current.text().replace(/\s+/g, " ").trim();
+
+      if (emphasizedContainer && containerText) {
+        if (currentGroup.prepContainer) {
+          throw recipeError(
+            data,
+            `activity section \`${currentGroup.name}\` in \`## Ingredients\` has more than one prep-container indication.`,
+          );
+        }
+
+        currentGroup.prepContainer = containerText;
+      }
     } else if (current[0].tagName === listTag && currentGroup) {
       let nextNumber = Number(current.attr("start") ?? 1);
 
@@ -113,7 +128,7 @@ function collectGroups($, sectionName, listTag, data) {
   }
 
   if (groups.length === 0) {
-    throw recipeError(data, `\`## ${sectionName}\` must contain numbered \`###\` activity sections.`);
+    throw recipeError(data, `\`## ${sectionName}\` must contain \`###\` activity sections.`);
   }
 
   for (const group of groups) {
@@ -149,6 +164,13 @@ export function parseRecipeContent(content, data) {
       throw recipeError(
         data,
         `activity heading \`${group.name}\` must contain only the activity name, with no index number or \`Group\` prefix.`,
+      );
+    }
+
+    if (!group.prepContainer) {
+      throw recipeError(
+        data,
+        `ingredient activity section \`${group.name}\` must include an italic container-size line immediately below its heading.`,
       );
     }
   });
