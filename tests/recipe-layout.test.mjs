@@ -117,14 +117,11 @@ test("rejects indexed activity headings", () => {
   );
 });
 
-test("rejects an ingredient group without a prep-container size", () => {
-  const missingContainerContent = recipeData().content.replace(
-    '<p><em>1 medium bowl (about 2 L).</em></p>\n',
+test("allows an ingredient group without optional suggested-container text", () => {
+  const contentWithoutSuggestedContainer = recipeData().content.replace(
+    '<p><em>1 small bowl (about 250 mL).</em></p>\n',
     "",
   );
 
-  assert.throws(
-    () => render(recipeData({ content: missingContainerContent })),
-    /ingredient activity section `Base` must include an italic container-size line/,
-  );
+  assert.doesNotThrow(() => render(recipeData({ content: contentWithoutSuggestedContainer })));
 });

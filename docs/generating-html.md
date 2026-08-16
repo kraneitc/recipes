@@ -108,7 +108,7 @@ npm run build
 
 npm runs Eleventy. A successful build ends with a message stating how many files were written. The complete generated website will be in `_site/`.
 
-The build also validates every recipe. It stops with a descriptive error if required metadata is missing, time values are not integers, an ingredient group lacks a container size, or ingredient and method groups do not match.
+The build also validates every recipe. It stops with a descriptive error if required metadata is missing, time values are not integers, or ingredient and method groups do not match.
 
 ## Preview the website while editing
 
@@ -220,9 +220,11 @@ The fields mean:
 
 If there is no value for an optional field, leave it blank after the colon.
 
-### 4. Write activity-based ingredients and methods
+### 4. Write mise-en-place-based ingredients and methods
 
 Do not add a `#` title to the Markdown body. The HTML template creates the title from front matter.
+
+Mise-en-place is the guiding principle for writing and interpreting ingredient groups. Each group should represent a practical preparation batch for one cooking activity, ordered according to the cook's workflow rather than shopping categories or ingredient types. A cook should be able to prepare the groups before beginning and then follow the same sequence through the method.
 
 Every ingredient activity group must have an identically named method group in the same position:
 
@@ -246,9 +248,6 @@ Every ingredient activity group must have an identically named method group in t
 
 ### To finish
 
-*1 small bowl (about 250 mL) for the salt; 1 small plate for the lime wedges.*
-
-- 1 tsp salt
 - 1 lime, cut into wedges
 
 ## Method
@@ -263,10 +262,12 @@ Every ingredient activity group must have an identically named method group in t
 
 ### To finish
 
-3. Season with the prepared finishing salt and serve with the lime wedges.
+3. Serve with the prepared lime wedges.
 ```
 
-Immediately below each ingredient activity heading, add an italic, unlabelled line naming a practical container size. When ingredients must remain separate, identify what goes in each container, and include an approximate capacity when useful. The build requires this line for every ingredient group. The generated page presents it as compact secondary text beside the more prominent activity heading.
+Immediately below an ingredient activity heading, add an italic, unlabelled suggested-container line only when it usefully prompts the cook to batch two or more ingredients together. Give the container a practical size and include an approximate capacity when useful. Omit the line for a single ingredient, ingredients that go directly into the cooking vessel, or any group for which a separate staging container would add clutter rather than help.
+
+If a suggested-container line would need to name multiple containers, reconsider the grouping. Prefer separate activity groups when ingredients cannot be combined. Keep multiple containers in one group only when the ingredients genuinely belong to the same cooking activity but must remain separate for food safety or recipe performance, and explain the separation clearly.
 
 This one-to-one grouping lets ingredients be prepared into labelled bowls before cooking and lets the generator produce matching structured instruction sections.
 
@@ -361,9 +362,9 @@ tags:
 
 Each ingredient `###` heading must exactly match the corresponding method `###` heading. Activity headings contain names only, with no index numbers or `Group` prefixes. Method steps use ordinary whole numbers in one continuous sequence across all activity sections.
 
-### An ingredient group has no container size
+### Suggested-container text
 
-Immediately below every ingredient `###` heading, add an italic, unlabelled line naming a practical size, such as `*1 medium bowl (about 2 L).*`. Add an approximate capacity when useful and describe multiple containers when ingredients need to remain separate.
+Suggested-container text is optional. Add an italic, unlabelled line such as `*1 medium bowl (about 2 L).*` only when it helps the cook batch ingredients that can be staged together. Do not add a container for a single ingredient or for ingredients that go directly into the cooking vessel. If the line would need several containers, first consider whether the ingredients belong in separate activity groups.
 
 ### The ingredient shopping section is missing
 

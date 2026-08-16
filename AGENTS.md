@@ -38,12 +38,15 @@ Every recipe should contain:
 4. `## Notes` when useful.
 5. `## Variations` when tested alternatives exist.
 
-### Activity-based ingredient groups
+### Mise-en-place and activity-based ingredient groups
 
-Activity-based ingredient grouping is required for every recipe. The grouping must support mise en place: a cook should be able to measure, prepare, and, where safe, combine each group in its own bowl or container before starting the method.
+**Mise-en-place is the guiding principle for writing and interpreting every recipe's ingredient groups.** Each group should represent a practical preparation batch for one cooking activity: ingredients the cook can measure, prepare, and, where useful and safe, combine before starting that activity. Write and interpret groups from the cook's workflow rather than from shopping categories or ingredient types.
+
+Activity-based ingredient grouping is required for every recipe. Use it to make the mise-en-place sequence obvious before cooking begins and easy to follow as the method progresses.
 
 - Under `## Ingredients`, divide ingredients into named `###` sections based on the cooking activity in which they are used, such as `Aromatic base`, `Sauce`, or `To finish`.
-- Immediately below each ingredient activity heading, add an italic, unlabelled line that names the container size, such as `*1 medium bowl (about 2 L).*`. When the group needs more than one container, identify which separate ingredient goes in each. Include an approximate capacity when it helps distinguish the required size.
+- Add an italic, unlabelled suggested-container line immediately below an ingredient activity heading only when it gives the cook a useful prompt to batch two or more ingredients together, such as `*1 medium bowl (about 2 L).*`. Do not add this text merely to satisfy the format, and normally omit it when the group contains only one ingredient or its ingredients go directly into the cooking vessel.
+- Treat a suggested-container line that names multiple containers as a prompt to reconsider the grouping. Prefer separate activity groups when ingredients cannot be batched together. Retain multiple containers in one group only when the ingredients genuinely belong to the same cooking activity but must remain separate for food safety or recipe performance; explain the separation clearly.
 - Do not include an index number or the word `Group` in an activity heading.
 - Put groups in the order they are first used in the method.
 - Within each group, list ingredients in the order they are used.
@@ -106,8 +109,8 @@ Before finishing a change:
 - Check that quantities in the method agree with the ingredient list.
 - Check that ingredient and method activity headings match, contain no index numbers or `Group` prefixes, and appear in the same order.
 - Check that method steps use ordinary whole numbers in one continuous sequence across all activity sections.
-- Check that each ingredient group can be staged in a bowl or container as written, noting anything that must remain separate.
-- Check that every ingredient group has an italic, unlabelled container-size line with a practical size and enough capacity for its ingredients.
+- Check that any suggested-container line is genuinely useful for batching ingredients, has a practical size and enough capacity, and does not hide ingredients that would be clearer in separate activity groups.
+- Check that groups with only one ingredient or ingredients added directly to the cooking vessel do not have unnecessary suggested-container text.
 - Check headings, lists, links, and YAML front matter.
 - Run `npm run build` to validate recipe metadata and generate HTML when Node.js dependencies are available.
 - Review the Git diff for unintended changes.

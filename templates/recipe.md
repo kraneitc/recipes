@@ -24,15 +24,13 @@ last_made:
 
 ### Second cooking activity
 
-*1 medium bowl (about 2 L); 1 small bowl (about 250 mL) for the ingredient kept separate.*
-
 - Ingredient and quantity
-- Ingredient and quantity, keep separate
 
 ### To finish
 
 *1 small bowl (about 500 mL).*
 
+- Ingredient and quantity
 - Ingredient and quantity
 
 ## Ingredient Shopping

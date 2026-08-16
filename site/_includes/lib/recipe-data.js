@@ -167,13 +167,6 @@ export function parseRecipeContent(content, data) {
         `activity heading \`${group.name}\` must contain only the activity name, with no index number or \`Group\` prefix.`,
       );
     }
-
-    if (!group.prepContainer) {
-      throw recipeError(
-        data,
-        `ingredient activity section \`${group.name}\` must include an italic container-size line immediately below its heading.`,
-      );
-    }
   });
 
   let expectedStepNumber = 1;
