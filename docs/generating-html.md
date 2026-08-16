@@ -111,6 +111,20 @@ The build also validates every recipe. It stops with a descriptive error if requ
 
 ## Preview the website while editing
 
+### Easiest method on Windows: double-click the launcher
+
+1. Open this repository's folder in File Explorer.
+2. Double-click `browse-recipes.cmd`.
+3. Keep the terminal window that appears open. On first use, it installs the exact site-generator versions recorded in `package-lock.json`; this may take a minute and requires internet access.
+4. Wait for the recipe index to open in your default web browser.
+5. Browse the recipes at the address opened by the launcher. This is normally `http://localhost:8080/`. If that address is already being used, the launcher automatically chooses the next available address.
+
+The launcher watches for recipe changes and rebuilds the pages automatically. To stop it, select its terminal window and press `Ctrl+C`. You can close the browser tab separately.
+
+The companion `browse-recipes.ps1` file contains the launcher logic. Keep both launcher files in the repository root; the `.cmd` file finds the repository even if its folder is moved.
+
+### Manual method from a terminal
+
 Run:
 
 ```powershell
@@ -127,7 +141,7 @@ Open that address in a web browser. Keep the terminal running while editing reci
 
 To stop the preview server, return to the terminal and press `Ctrl+C` once. If PowerShell asks whether to terminate the job, answer `Y` and press Enter.
 
-The preview is visible only on the local computer. It does not publish the recipes to the internet.
+Both preview methods are visible only on the local computer. They do not publish the recipes to the internet. The generated `_site/` folder remains excluded from Git because it can always be rebuilt from the committed Markdown.
 
 ## Add a recipe
 
@@ -336,6 +350,7 @@ Commit these files:
 - recipe Markdown;
 - recipe images;
 - templates, layouts, styles, and configuration;
+- the local viewer launchers, `browse-recipes.cmd` and `browse-recipes.ps1`;
 - `package.json`; and
 - `package-lock.json`.
 
