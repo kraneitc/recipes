@@ -21,7 +21,7 @@ last_made:
 
 ## Ingredients
 
-### Group 1 — Vegetable base
+### Vegetable base
 
 - 2 tbsp extra-virgin olive oil, keep separate
 - 2 large onions, diced
@@ -29,7 +29,7 @@ last_made:
 - 3 celery stalks, diced
 - 1 red capsicum, diced
 
-### Group 2 — Aromatics and spices
+### Aromatics and spices
 
 - 5 garlic cloves, crushed
 - 2 tbsp tomato paste
@@ -39,7 +39,7 @@ last_made:
 - ½ tsp ground cinnamon
 - Chilli flakes, to taste
 
-### Group 3 — Lentil simmer
+### Lentil simmer
 
 - 500 g dried brown or green lentils, rinsed
 - 2 × 400 g tins diced tomatoes
@@ -47,53 +47,53 @@ last_made:
 - 500 mL water
 - 2 bay leaves
 
-### Group 4 — Quinoa and remaining vegetables
+### Quinoa and remaining vegetables
 
 - 1½ cups dry quinoa, rinsed thoroughly under running water
 - 1 medium zucchini, diced
 - 1 × 400 g tin chickpeas, drained and rinsed
 - Extra water, 125 mL at a time as needed, keep separate
 
-### Group 5 — Greens and seasoning
+### Greens and seasoning
 
 - 150–200 g baby spinach or chopped silverbeet
 - Juice of 1 lemon
 - Freshly ground black pepper, to taste
 - Fine salt, to taste if needed
 
-### Group 6 — Rest and serve
+### Rest and serve
 
 - Reduced-fat Greek yoghurt, to serve, optional
 - Lemon wedges, to serve, optional
 
 ## Method
 
-### Group 1 — Vegetable base
+### Vegetable base
 
-1. Heat the Group 1 olive oil in a large, heavy-based pot over medium heat. Add the remaining Group 1 ingredients and cook for 8–10 minutes, stirring occasionally, until softened.
+1. Heat the olive oil in a large, heavy-based pot over medium heat. Add the prepared vegetable base and cook for 8–10 minutes, stirring occasionally, until softened.
 
-### Group 2 — Aromatics and spices
+### Aromatics and spices
 
-2. Add the prepared Group 2 ingredients. Cook for 1–2 minutes, stirring continuously, until fragrant.
+2. Add the prepared aromatics and spices. Cook for 1–2 minutes, stirring continuously, until fragrant.
 
-### Group 3 — Lentil simmer
+### Lentil simmer
 
-3. Add all Group 3 ingredients and stir well. Bring to a gentle boil, reduce the heat, and simmer partially covered for 25–30 minutes. Stir occasionally, particularly as the stew begins to thicken.
+3. Add the prepared lentil simmer ingredients and stir well. Bring to a gentle boil, reduce the heat, and simmer partially covered for 25–30 minutes. Stir occasionally, particularly as the stew begins to thicken.
 
-### Group 4 — Quinoa and remaining vegetables
+### Quinoa and remaining vegetables
 
-4. Add the quinoa, zucchini, and chickpeas from Group 4. Stir well and simmer uncovered for 18–20 minutes, stirring every few minutes, until the quinoa and lentils are tender.
-5. If the stew becomes too thick before the quinoa is cooked, add the separate Group 4 water 125 mL at a time. Keep the hot stew slightly looser than the desired final consistency because it will thicken as it cools.
+4. Add the prepared quinoa, zucchini, and chickpeas. Stir well and simmer uncovered for 18–20 minutes, stirring every few minutes, until the quinoa and lentils are tender.
+5. If the stew becomes too thick before the quinoa is cooked, add the separate water 125 mL at a time. Keep the hot stew slightly looser than the desired final consistency because it will thicken as it cools.
 
-### Group 5 — Greens and seasoning
+### Greens and seasoning
 
-6. Stir in the Group 5 greens, lemon juice, and black pepper. Cook for 2–3 minutes, just until the greens wilt.
-7. Remove the bay leaves. Taste before adding the Group 5 salt because the stock and chickpeas may already provide enough seasoning.
+6. Stir in the prepared greens, lemon juice, and black pepper. Cook for 2–3 minutes, just until the greens wilt.
+7. Remove the bay leaves. Taste before adding salt because the stock and chickpeas may already provide enough seasoning.
 
-### Group 6 — Rest and serve
+### Rest and serve
 
 8. Turn off the heat and leave the stew to stand for 10–15 minutes. The quinoa will continue absorbing moisture; aim for a consistency closer to a soft casserole than a soup.
-9. Serve with the optional Group 6 Greek yoghurt and lemon wedges.
+9. Serve with the optional Greek yoghurt and lemon wedges.
 
 ## Notes
 

@@ -90,11 +90,18 @@ function collectGroups($, sectionName, listTag, data) {
 
       currentGroup = {
         name: current.text().trim(),
-        items: []
+        items: [],
+        numbers: []
       };
     } else if (current[0].tagName === listTag && currentGroup) {
+      let nextNumber = Number(current.attr("start") ?? 1);
+
       current.children("li").each((_, item) => {
+        const explicitValue = $(item).attr("value");
+        const itemNumber = explicitValue === undefined ? nextNumber : Number(explicitValue);
         currentGroup.items.push($(item).text().replace(/\s+/g, " ").trim());
+        currentGroup.numbers.push(itemNumber);
+        nextNumber = itemNumber + 1;
       });
     }
 
@@ -106,12 +113,12 @@ function collectGroups($, sectionName, listTag, data) {
   }
 
   if (groups.length === 0) {
-    throw recipeError(data, `\`## ${sectionName}\` must contain named \`###\` activity groups.`);
+    throw recipeError(data, `\`## ${sectionName}\` must contain numbered \`###\` activity sections.`);
   }
 
   for (const group of groups) {
     if (group.items.length === 0) {
-      throw recipeError(data, `activity group \`${group.name}\` in \`## ${sectionName}\` has no list items.`);
+      throw recipeError(data, `activity section \`${group.name}\` in \`## ${sectionName}\` has no list items.`);
     }
   }
 
@@ -136,6 +143,29 @@ export function parseRecipeContent(content, data) {
       "ingredient and method activity group headings must match exactly and appear in the same order.",
     );
   }
+
+  ingredientGroups.forEach((group) => {
+    if (/^Group\s+\d+/i.test(group.name) || /^\d+\s+—\s+/.test(group.name)) {
+      throw recipeError(
+        data,
+        `activity heading \`${group.name}\` must contain only the activity name, with no index number or \`Group\` prefix.`,
+      );
+    }
+  });
+
+  let expectedStepNumber = 1;
+  methodGroups.forEach((group) => {
+    group.numbers.forEach((stepNumber) => {
+      if (stepNumber !== expectedStepNumber) {
+        throw recipeError(
+          data,
+          `method steps must be numbered continuously; expected step ${expectedStepNumber} under \`${group.name}\` but found ${stepNumber}.`,
+        );
+      }
+
+      expectedStepNumber += 1;
+    });
+  });
 
   return { ingredientGroups, methodGroups };
 }

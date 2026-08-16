@@ -214,35 +214,35 @@ Every ingredient activity group must have an identically named method group in t
 ```markdown
 ## Ingredients
 
-### Group 1 — Aromatic base
+### Aromatic base
 
 - 1 onion, finely diced
 - 3 garlic cloves, minced
 - 20 g ginger, grated
 
-### Group 2 — Braising liquid
+### Braising liquid
 
 - 400 mL coconut milk
 - 1 tbsp tamarind paste
 
-### Group 3 — To finish
+### To finish
 
 - 1 tsp salt
 - 1 lime, cut into wedges
 
 ## Method
 
-### Group 1 — Aromatic base
+### Aromatic base
 
-1. Cook the prepared Group 1 ingredients over medium heat until soft and fragrant, about 8 minutes.
+1. Cook the prepared aromatic base over medium heat until soft and fragrant, about 8 minutes.
 
-### Group 2 — Braising liquid
+### Braising liquid
 
-2. Add the prepared Group 2 ingredients and bring to a gentle simmer.
+2. Add the prepared braising liquid and bring to a gentle simmer.
 
-### Group 3 — To finish
+### To finish
 
-3. Season with the prepared Group 3 salt and serve with the lime wedges.
+3. Season with the prepared finishing salt and serve with the lime wedges.
 ```
 
 This one-to-one grouping lets ingredients be prepared into labelled bowls before cooking and lets the generator produce matching structured instruction sections.
@@ -317,7 +317,7 @@ tags:
 
 ### Ingredient and method groups do not match
 
-The text after each ingredient `###` heading must exactly match the corresponding method `###` heading, including its group number and punctuation.
+Each ingredient `###` heading must exactly match the corresponding method `###` heading. Activity headings contain names only, with no index numbers or `Group` prefixes. Method steps use ordinary whole numbers in one continuous sequence across all activity sections.
 
 ### Port 8080 is already in use
 

@@ -42,7 +42,8 @@ Every recipe should contain:
 
 Activity-based ingredient grouping is required for every recipe. The grouping must support mise en place: a cook should be able to measure, prepare, and, where safe, combine each group in its own bowl or container before starting the method.
 
-- Under `## Ingredients`, divide ingredients into named `###` groups based on the cooking activity in which they are used, such as `Group 1 — Aromatic base`, `Group 2 — Sauce`, or `Group 3 — To finish`.
+- Under `## Ingredients`, divide ingredients into named `###` sections based on the cooking activity in which they are used, such as `Aromatic base`, `Sauce`, or `To finish`.
+- Do not include an index number or the word `Group` in an activity heading.
 - Put groups in the order they are first used in the method.
 - Within each group, list ingredients in the order they are used.
 - Group ingredients that can be pre-measured or safely combined in the same bowl or container.
@@ -50,7 +51,7 @@ Activity-based ingredient grouping is required for every recipe. The grouping mu
 - If an ingredient is used in more than one activity, split its quantity between the relevant groups. Avoid an ambiguous `divided` quantity.
 - Do not group ingredients by shopping category or ingredient type unless that grouping also matches a cooking activity.
 
-Under `## Method`, create matching `###` activity sections with the same group numbers and names, in the same order as the ingredient groups. Put numbered method steps beneath the matching activity heading. Each step must make clear which prepared group or container is being used. A method section may use an earlier group again, but it must not introduce an unlisted ingredient.
+Under `## Method`, create matching `###` activity sections with the same names, in the same order as the ingredient sections. Put an ordered Markdown list beneath each activity heading. Number method steps sequentially across the entire recipe using ordinary whole numbers: `1`, `2`, `3`, and so on. When a new activity section begins, start its Markdown list at the next number rather than restarting at `1`. Each step must make clear which prepared section or container is being used. A method section may use an earlier ingredient section again, but it must not introduce an unlisted ingredient.
 
 Make quantities, timing, temperature, and visual or tactile cues clear in the method.
 
@@ -102,7 +103,8 @@ Before finishing a change:
 
 - Check that every ingredient is accounted for in the method.
 - Check that quantities in the method agree with the ingredient list.
-- Check that ingredient and method group headings match and appear in the same order.
+- Check that ingredient and method activity headings match, contain no index numbers or `Group` prefixes, and appear in the same order.
+- Check that method steps use ordinary whole numbers in one continuous sequence across all activity sections.
 - Check that each ingredient group can be staged in a bowl or container as written, noting anything that must remain separate.
 - Check headings, lists, links, and YAML front matter.
 - Run `npm run build` to validate recipe metadata and generate HTML when Node.js dependencies are available.

@@ -15,33 +15,33 @@ last_made:
 
 ## Ingredients
 
-### Group 1 — First cooking activity
+### First cooking activity
 
 - Ingredient and quantity
 - Ingredient and quantity
 
-### Group 2 — Second cooking activity
+### Second cooking activity
 
 - Ingredient and quantity
 - Ingredient and quantity, keep separate
 
-### Group 3 — To finish
+### To finish
 
 - Ingredient and quantity
 
 ## Method
 
-### Group 1 — First cooking activity
+### First cooking activity
 
-1. Use the prepared Group 1 ingredients to complete this activity.
+1. Use the prepared ingredients for the first cooking activity.
 
-### Group 2 — Second cooking activity
+### Second cooking activity
 
-2. Add or combine the prepared Group 2 ingredients as directed.
+2. Add or combine the prepared ingredients for the second cooking activity.
 
-### Group 3 — To finish
+### To finish
 
-3. Finish the dish with the prepared Group 3 ingredients.
+3. Finish the dish with the prepared finishing ingredients.
 
 ## Notes
 
