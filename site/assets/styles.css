@@ -137,8 +137,13 @@ h3 {
 }
 
 .recipe-card h2,
+.recipe-card h3,
 .empty-state h2 {
   margin-top: 0.4rem;
+}
+
+.collection-section {
+  margin-top: clamp(3rem, 7vw, 6rem);
 }
 
 .recipe-card-meta {

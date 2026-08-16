@@ -35,3 +35,25 @@ permalink: /index.html
     <p>Copy <code>templates/recipe.md</code> into a new folder under <code>recipes/</code> to add the first recipe.</p>
   </section>
 {% endif %}
+
+{% if collections.meals.length %}
+  <section class="collection-section" aria-labelledby="meals-heading">
+    <header class="collection-header">
+      <p class="eyebrow">Batch cooking</p>
+      <h2 id="meals-heading">Meals</h2>
+      <p>Coordinated recipes portioned and stored together for easy serving.</p>
+    </header>
+    <ul class="recipe-grid">
+      {% for meal in collections.meals %}
+        <li>
+          <article class="recipe-card">
+            <p class="recipe-status">Meal</p>
+            <h3><a href="{{ meal.url | url }}">{{ meal.data.title }}</a></h3>
+            <p>{{ meal.data.description }}</p>
+            <p class="recipe-card-meta">{{ meal.data.yield }}</p>
+          </article>
+        </li>
+      {% endfor %}
+    </ul>
+  </section>
+{% endif %}

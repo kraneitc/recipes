@@ -33,6 +33,12 @@ export default function (eleventyConfig) {
       .getFilteredByGlob("./recipes/*/recipe.md")
       .sort((left, right) => left.data.title.localeCompare(right.data.title)),
   );
+
+  eleventyConfig.addCollection("meals", (collectionApi) =>
+    collectionApi
+      .getFilteredByGlob("./meals/*.md")
+      .sort((left, right) => left.data.title.localeCompare(right.data.title)),
+  );
 }
 
 export const config = {
