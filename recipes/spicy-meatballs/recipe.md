@@ -30,11 +30,11 @@ last_made:
 - 1 egg
 - 2 garlic cloves, finely minced
 - 1 onion, finely grated
-- 2 tbsp mixed herbs
+- 2 tbsp Italian mixed herbs
 - 1 tsp smoked paprika
 - 1 tsp ground cumin
 - 1 tsp chilli flakes
-- 1/2 tsp cayenne pepper
+- 1/2 tsp hot cayenne pepper
 - 1/2 tsp black pepper
 
 ### Skillet setup
@@ -55,9 +55,9 @@ last_made:
 - 1 x tin tomatoes
 - 2 x jars pasta sauce
 - 1 tsp smoked paprika
-- 2 tbsp mixed herbs
+- 2 tbsp Italian mixed herbs
 - 1 tsp chilli flakes
-- 1 tsp cayenne pepper
+- 1 tsp hot cayenne pepper
 - 1/2 tsp black pepper
 
 ### Spaghetti
@@ -93,11 +93,11 @@ last_made:
 
 ### Herbs and spices
 
-- 4 tbsp mixed herbs
+- 4 tbsp Italian mixed herbs
 - 2 tsp smoked paprika
 - 1 tsp ground cumin
 - 2 tsp chilli flakes
-- 1 1/2 tsp cayenne pepper
+- 1 1/2 tsp hot cayenne pepper
 - 1 tsp black pepper
 
 ## Method
@@ -117,7 +117,7 @@ last_made:
 
 ### Tomato sauce
 
-5. In the prepared large bowl or jug, combine the tinned tomatoes, pasta sauces, smoked paprika, mixed herbs, chilli flakes, cayenne pepper, and black pepper. Mix well, then pour the sauce evenly into the skillet.
+5. In the prepared large bowl or jug, combine the tinned tomatoes, pasta sauces, smoked paprika, Italian mixed herbs, chilli flakes, hot cayenne pepper, and black pepper. Mix well, then pour the sauce evenly into the skillet.
 6. Place the skillet in the preheated oven and bake for 20 minutes.
 7. Carefully remove the skillet and stir the meatballs and sauce. Return it to the oven for another 20 minutes, until the sauce is bubbling and the largest meatball is cooked through.
 
