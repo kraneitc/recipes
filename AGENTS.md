@@ -45,6 +45,7 @@ Every recipe should contain:
 Activity-based ingredient grouping is required for every recipe. Use it to make the mise-en-place sequence obvious before cooking begins and easy to follow as the method progresses.
 
 - Under `## Ingredients`, divide ingredients into named `###` sections based on the cooking activity in which they are used, such as `Aromatic base`, `Sauce`, or `To finish`.
+- When the ingredients in an activity group can be added directly to an initially empty pan, pot, or saucepan, add an italic, unlabelled instruction immediately below the ingredient activity heading, formatted like suggested-container text and naming the vessel, such as `*Add directly to a small saucepan.*`. Do not repeat this instruction below the matching method heading. Do not use this note when the vessel already contains ingredients from an earlier activity, or when one ingredient must heat or cook before the rest of the group is added.
 - Add an italic, unlabelled suggested-container line immediately below an ingredient activity heading only when it gives the cook a useful prompt to batch two or more ingredients together, such as `*1 medium bowl (about 2 L).*`. Do not add this text merely to satisfy the format, and normally omit it when the group contains only one ingredient or its ingredients go directly into the cooking vessel.
 - Treat a suggested-container line that names multiple containers as a prompt to reconsider the grouping. Prefer separate activity groups when ingredients cannot be batched together. Retain multiple containers in one group only when the ingredients genuinely belong to the same cooking activity but must remain separate for food safety or recipe performance; explain the separation clearly.
 - Do not include an index number or the word `Group` in an activity heading.
@@ -110,6 +111,7 @@ Before finishing a change:
 - Check that ingredient and method activity headings match, contain no index numbers or `Group` prefixes, and appear in the same order.
 - Check that method steps use ordinary whole numbers in one continuous sequence across all activity sections.
 - Check that any suggested-container line is genuinely useful for batching ingredients, has a practical size and enough capacity, and does not hide ingredients that would be clearer in separate activity groups.
+- Check that each group which can go directly into an initially empty pan, pot, or saucepan has an italic direct-to-vessel instruction below its ingredient activity heading and names the vessel, and that groups requiring staged additions do not use this note.
 - Check that groups with only one ingredient or ingredients added directly to the cooking vessel do not have unnecessary suggested-container text.
 - Check headings, lists, links, and YAML front matter.
 - Run `npm run build` to validate recipe metadata and generate HTML when Node.js dependencies are available.

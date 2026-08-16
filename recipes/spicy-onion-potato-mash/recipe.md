@@ -22,12 +22,14 @@ last_made:
 
 ### Potatoes
 
-*Add potatoes directly to a large pot.*
+*Add directly to a very large pot.*
 
 - 2.75 kg mashing potatoes, peeled and cut into even chunks
 - 1.75 L boiling water, keep separate
 
 ### Onion
+
+*Add directly to a large non-stick frying pan.*
 
 - 1 large onion, finely diced
 - Water, 1 tbsp at a time as needed to prevent sticking, keep separate

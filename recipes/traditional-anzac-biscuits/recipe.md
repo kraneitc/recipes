@@ -30,7 +30,9 @@ last_made:
 - 1 cup (220 g) brown sugar
 - 3/4 cup (60 g) desiccated coconut
 
-### Butter and golden syrup (add directly to a small saucepan)
+### Butter and golden syrup
+
+*Add directly to a small saucepan.*
 
 - 125 g butter
 - 2 tbsp golden syrup
@@ -64,7 +66,7 @@ last_made:
 1. Preheat the oven to 160°C fan-forced (180°C conventional). Line two baking trays with baking paper.
 2. Combine the prepared rolled oats, flour, brown sugar, and coconut in the large bowl.
 
-### Butter and golden syrup (add directly to a small saucepan)
+### Butter and golden syrup
 
 3. Put the prepared butter and golden syrup in a small saucepan. Melt together over low heat, stirring until smooth, then remove from the heat.
 
