@@ -39,7 +39,7 @@ last_made:
 *1 small bowl (about 125 mL).*
 
 - 1 tsp ground cumin
-- 1 tsp hot paprika
+- 1 tsp smoked paprika
 - 1 tsp garlic powder
 - 2 tsp Italian mixed herbs
 
@@ -61,7 +61,7 @@ last_made:
 ### Herbs and spices
 
 - 1 tsp ground cumin
-- 1 tsp hot paprika
+- 1 tsp smoked paprika
 - 1 tsp garlic powder
 - 2 tsp Italian mixed herbs
 
@@ -91,4 +91,4 @@ last_made:
 - This draft assumes the cumin is ground. Confirm this before marking the recipe as tested.
 - The listed yield and times are estimates and should be checked when the recipe is first made.
 - A floury potato sold for mashing will give the lightest result. Cut the pieces to a similar size so they finish cooking together.
-- With 2.75 kg potatoes, 1 tsp hot paprika is likely to give gentle warmth rather than pronounced heat.
+- With 2.75 kg potatoes, 1 tsp smoked paprika is likely to give subtle smokiness rather than pronounced heat.
