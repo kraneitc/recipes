@@ -23,9 +23,9 @@ last_made:
 
 ### Vegetable base
 
-*1 large bowl (at least 3 L) for the vegetables; 1 small cup for the oil.*
+*1 large bowl (at least 3 L) for the vegetables.*
 
-- 2 tbsp extra-virgin olive oil, keep separate
+- 2 tbsp extra-virgin olive oil (for the pan)
 - 2 large onions, diced
 - 3 carrots, diced
 - 3 celery stalks, diced
@@ -45,13 +45,13 @@ last_made:
 
 ### Lentil simmer
 
-*1 large bowl or jug (at least 4 L).*
+*1 large bowl (at least 3 L) for the lentils, tomatoes, bay leaves, and dry stock powder; 1 kettle (at least 2 L) for the boiling water, kept separate from the bowl.*
 
 - 500 g dried brown or green lentils, rinsed
 - 2 × 400 g tins diced tomatoes
-- 1.5 L reduced-salt vegetable or chicken stock
-- 500 mL water
 - 2 bay leaves
+- 4 tsp reduced-salt vegetable or chicken dry stock powder (1 tsp per 500 mL water)
+- 2 L boiling water, keep separate
 
 ### Quinoa and remaining vegetables
 
@@ -64,12 +64,11 @@ last_made:
 
 ### Greens and seasoning
 
-*1 large bowl (at least 3 L) for the greens; 1 small bowl (about 250 mL) for the lemon juice and black pepper; 1 small ramekin for the salt.*
+*1 large bowl (at least 3 L) for the greens; 1 small bowl (about 250 mL) for the lemon juice and black pepper.*
 
 - 150–200 g baby spinach or chopped silverbeet
 - Juice of 1 lemon
 - Freshly ground black pepper, to taste (1/4 tsp for mild, 1/2 tsp for warm, or 1 tsp for hot)
-- Fine salt, to taste if needed
 
 ### Rest and serve
 
@@ -105,7 +104,7 @@ last_made:
 
 - 2 tbsp extra-virgin olive oil
 - 2 tbsp tomato paste
-- 1.5 L reduced-salt vegetable or chicken stock
+- 4 tsp reduced-salt vegetable or chicken dry stock powder
 
 ### Herbs and spices
 
@@ -116,7 +115,6 @@ last_made:
 - Chilli flakes, up to 1 tsp according to preferred heat
 - 2 bay leaves
 - Freshly ground black pepper, up to 1 tsp according to preferred heat
-- Fine salt, as needed
 
 ### Dairy and chilled
 
@@ -134,7 +132,7 @@ last_made:
 
 ### Lentil simmer
 
-3. Add the prepared lentil simmer ingredients and stir well. Bring to a gentle boil, reduce the heat, and simmer partially covered for 25–30 minutes. Stir occasionally, particularly as the stew begins to thicken.
+3. Add the prepared lentils, tomatoes, bay leaves, and dry stock powder from the lentil simmer bowl. Pour in 2 L boiling water directly from the kettle and stir well to dissolve the stock powder. Bring to a gentle boil, reduce the heat, and simmer partially covered for 25–30 minutes. Stir occasionally, particularly as the stew begins to thicken.
 
 ### Quinoa and remaining vegetables
 
@@ -144,7 +142,7 @@ last_made:
 ### Greens and seasoning
 
 6. Stir in the prepared greens, lemon juice, and black pepper. Cook for 2–3 minutes, just until the greens wilt.
-7. Remove the bay leaves. Taste before adding salt because the stock and chickpeas may already provide enough seasoning.
+7. Remove the bay leaves.
 
 ### Rest and serve
 
@@ -153,7 +151,6 @@ last_made:
 
 ## Notes
 
-- The stated cooking time is about 1 hour. The 20-minute preparation time in the metadata is an estimate based on the chopping and rinsing required.
 - Once cooled, divide the stew into individual portions. Refrigerate for up to 4 days or freeze for about 3 months.
 - The quinoa and lentils absorb more moisture during storage. Reheat the stew as-is for a very thick consistency, or loosen it with a small splash of water or stock.
 
