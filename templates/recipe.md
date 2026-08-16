@@ -35,6 +35,16 @@ last_made:
 
 - Ingredient and quantity
 
+## Ingredient Shopping
+
+### Fruit and vegetables
+
+- Ingredient and quantity
+
+### Pantry
+
+- Ingredient and quantity
+
 ## Method
 
 ### First cooking activity

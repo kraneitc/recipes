@@ -24,6 +24,7 @@ The generated HTML includes:
 - a page for every recipe;
 - preparation, cooking, and total times;
 - activity-based ingredient and method groups;
+- a supermarket-location shopping list that is collapsed by default;
 - responsive screen styling;
 - print-friendly styling; and
 - Schema.org Recipe metadata generated from the visible recipe.
@@ -269,13 +270,32 @@ Immediately below each ingredient activity heading, add an italic, unlabelled li
 
 This one-to-one grouping lets ingredients be prepared into labelled bowls before cooking and lets the generator produce matching structured instruction sections.
 
-### 5. Add an image, if available
+### 5. Add the ingredient shopping list
+
+After `## Ingredients` and before `## Method`, add an `## Ingredient Shopping` section. Group every purchased ingredient under `###` headings that match likely supermarket locations, such as `Fruit and vegetables`, `Meat`, `Dairy and chilled`, `Frozen foods`, `Baking`, or `Herbs and spices`. Only include locations relevant to the recipe; tap water does not need to appear.
+
+```markdown
+## Ingredient Shopping
+
+### Fruit and vegetables
+
+- 1 onion
+- 3 garlic cloves
+
+### Cans, stocks and sauces
+
+- 400 mL coconut milk
+```
+
+The generated recipe page turns this section into an ingredient-shopping disclosure that is collapsed by default. Each item receives a clickable checkbox, and checked items are crossed out. The source remains ordinary Markdown; do not add raw `<details>` or checkbox HTML.
+
+### 6. Add an image, if available
 
 Copy the image into the recipe's `images/` folder. Use a short lowercase filename such as `rendang.jpg`. Set both `image` and `image_alt` in front matter.
 
 The repository stores the original image file. Eleventy copies it to the corresponding generated recipe folder.
 
-### 6. Build and review
+### 7. Build and review
 
 If the preview server is running, save the file and open the recipe from the home page. Otherwise run:
 
@@ -344,6 +364,10 @@ Each ingredient `###` heading must exactly match the corresponding method `###` 
 ### An ingredient group has no container size
 
 Immediately below every ingredient `###` heading, add an italic, unlabelled line naming a practical size, such as `*1 medium bowl (about 2 L).*`. Add an approximate capacity when useful and describe multiple containers when ingredients need to remain separate.
+
+### The ingredient shopping section is missing
+
+Add `## Ingredient Shopping` with one or more `###` supermarket-location groups and unordered ingredient lists. The generated page makes this section collapsible automatically.
 
 ### Port 8080 is already in use
 

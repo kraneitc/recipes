@@ -70,7 +70,52 @@ last_made:
 
 - 1–2 tbsp butter
 - Up to 2 tbsp mango chutney, to taste, keep separate
-- Chilli flakes or finely chopped fresh chilli, to taste (optional), keep separate
+- Chilli flakes or finely chopped small fresh chilli, to taste (optional), keep separate; use 1/4 tsp flakes or 1/2 chilli for mild, 1/2 tsp flakes or 1 chilli for warm, or 1 tsp flakes or 2 chillies for hot
+
+## Ingredient Shopping
+
+### Fruit and vegetables
+
+- 2 large onions
+- 1 small apple
+- 4 garlic cloves
+- Fresh ginger, enough for 2 tbsp grated (or use ground ginger from the herbs and spices aisle)
+- Up to 2 small fresh chillies (optional alternative to chilli flakes)
+
+### Meat
+
+- 1 kg chicken thighs
+
+### Frozen foods
+
+- 4 cups frozen mixed vegetables
+
+### Dairy and chilled
+
+- 1–2 tbsp butter
+
+### Cans, stocks and sauces
+
+- 1 × 400 mL can full-fat coconut milk
+- 1 × 400 mL can coconut cream
+- 2 tbsp tomato paste
+- 1 cup chicken stock, or use water
+- 3–5 tbsp mango chutney
+
+### Baking, nuts and dried fruit
+
+- 3 tbsp almond meal (ground almonds)
+- 4 tbsp sultanas
+
+### Oils, herbs and spices
+
+- 4 tbsp neutral oil
+- 4 tbsp mild or medium curry powder
+- 2 tsp ground cumin
+- 2 tsp ground coriander
+- 2 tsp ground ginger (optional alternative to fresh ginger)
+- Chilli flakes, up to 1 tsp according to preferred heat (optional alternative to fresh chilli)
+- Salt, as needed
 
 ## Method
 
@@ -112,3 +157,4 @@ last_made:
 
 - Using water in place of chicken stock is an untested option from the source notes.
 - Ground ginger in place of fresh ginger is an untested option from the source notes.
+- The mild, warm, and hot chilli quantities are untested starting points. Fresh chillies vary widely in strength, so begin with less if using an unfamiliar variety.

@@ -52,6 +52,33 @@ last_made:
 - 1 small pinch ground cinnamon (optional)
 - Vanilla ice cream, thick cream, custard, or Greek yoghurt, to serve (optional), keep separate
 
+## Ingredient Shopping
+
+### Fruit and vegetables
+
+- 1 kg apple and rhubarb
+- Fresh lemon, enough for 2 tbsp juice
+
+### Baking
+
+- 300–350 g brown sugar
+- 3 tbsp cornflour
+- 1 tsp vanilla extract
+- 1 1/2 cups (225 g) plain flour
+- 1/2 cup (50 g) almond meal
+- 1 1/4 cups (120 g) rolled oats
+- 2 tsp ground cinnamon, plus a small optional pinch to finish
+- 1/2 tsp salt
+
+### Dairy and chilled
+
+- 200 g butter
+- Thick cream, custard, or Greek yoghurt, to serve (optional)
+
+### Frozen foods
+
+- Vanilla ice cream, to serve (optional)
+
 ## Method
 
 ### Prepare the filling

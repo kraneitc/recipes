@@ -148,6 +148,7 @@ export function parseRecipeContent(content, data) {
   }
 
   const ingredientGroups = collectGroups($, "Ingredients", "ul", data);
+  const shoppingGroups = collectGroups($, "Ingredient Shopping", "ul", data);
   const methodGroups = collectGroups($, "Method", "ol", data);
   const ingredientNames = ingredientGroups.map((group) => group.name);
   const methodNames = methodGroups.map((group) => group.name);
@@ -189,7 +190,36 @@ export function parseRecipeContent(content, data) {
     });
   });
 
-  return { ingredientGroups, methodGroups };
+  return { ingredientGroups, shoppingGroups, methodGroups };
+}
+
+export function collapseIngredientShopping(content, data) {
+  const $ = cheerio.load(`<main>${content}</main>`);
+  const heading = findSection($, "Ingredient Shopping", data);
+  const details = $(
+    '<details class="ingredient-shopping"><summary>Ingredient shopping</summary><div class="ingredient-shopping-content"></div></details>',
+  );
+  const shoppingContent = details.children(".ingredient-shopping-content");
+  let current = heading.next();
+
+  while (current.length > 0 && current[0].tagName !== "h2") {
+    const next = current.next();
+    shoppingContent.append(current);
+    current = next;
+  }
+
+  shoppingContent.find("li").each((_, element) => {
+    const item = $(element);
+    const itemText = $("<span></span>").append(item.contents());
+    const label = $('<label class="shopping-item"></label>')
+      .append('<input type="checkbox">')
+      .append(itemText);
+
+    item.empty().append(label);
+  });
+
+  heading.replaceWith(details);
+  return $("main").html();
 }
 
 export function minutesToIsoDuration(totalMinutes) {

@@ -27,6 +27,11 @@ function recipeData(overrides = {}) {
 <h3>To finish</h3>
 <p><em>1 small bowl (about 250 mL).</em></p>
 <ul><li>1 tsp salt</li></ul>
+<h2>Ingredient Shopping</h2>
+<h3>Fruit and vegetables</h3>
+<ul><li>1 onion</li></ul>
+<h3>Pantry</h3>
+<ul><li>500 mL stock</li><li>1 tsp salt</li></ul>
 <h2>Method</h2>
 <h3>Base</h3>
 <ol><li>Cook the onion, then add the stock.</li></ol>
@@ -41,6 +46,15 @@ test("renders recipe HTML and Schema.org data from grouped content", () => {
   const scriptMatch = output.match(/<script type="application\/ld\+json">([\s\S]+)<\/script>/);
 
   assert.match(output, /<h1>Example soup<\/h1>/);
+  assert.match(output, /<details class="ingredient-shopping">/);
+  assert.doesNotMatch(output, /<details class="ingredient-shopping" open>/);
+  assert.match(output, /<summary>Ingredient shopping<\/summary>/);
+  assert.match(output, /<div class="ingredient-shopping-content"><h3>Fruit and vegetables<\/h3>/);
+  assert.equal((output.match(/<input type="checkbox">/g) ?? []).length, 3);
+  assert.match(
+    output,
+    /<label class="shopping-item"><input type="checkbox"><span>1 onion<\/span><\/label>/,
+  );
   assert.ok(scriptMatch, "expected a JSON-LD script");
 
   const structuredData = JSON.parse(scriptMatch[1]);
@@ -56,6 +70,18 @@ test("renders recipe HTML and Schema.org data from grouped content", () => {
     "Cook the onion, then add the stock.",
   );
   assert.equal(structuredData.image, "https://example.com/recipes/example-soup/images/soup.jpg");
+});
+
+test("rejects a recipe without ingredient shopping groups", () => {
+  const contentWithoutShopping = recipeData().content.replace(
+    /<h2>Ingredient Shopping<\/h2>[\s\S]*?(?=<h2>Method<\/h2>)/,
+    "",
+  );
+
+  assert.throws(
+    () => render(recipeData({ content: contentWithoutShopping })),
+    /a `## Ingredient Shopping` section is required/,
+  );
 });
 
 test("rejects method sections that do not match ingredient sections", () => {

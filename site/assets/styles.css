@@ -257,6 +257,73 @@ h3 {
   border-radius: 0.5rem;
 }
 
+.ingredient-shopping {
+  margin-top: 2.2rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 0.8rem;
+}
+
+.ingredient-shopping summary {
+  padding: 1rem 1.25rem;
+  color: var(--accent-dark);
+  cursor: pointer;
+  font-size: clamp(1.3rem, 3vw, 1.65rem);
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.ingredient-shopping summary:hover {
+  color: var(--accent);
+}
+
+.ingredient-shopping-content {
+  padding: 0.35rem 1.25rem 1rem;
+  border-top: 1px solid var(--border);
+}
+
+.ingredient-shopping-content h3 {
+  display: block;
+  margin: 0.9rem 0 0.15rem;
+  padding-left: 0.55rem;
+  font-size: 1.05rem;
+}
+
+.ingredient-shopping-content h3 + ul {
+  margin: 0;
+  padding: 0.1rem 0 0.35rem;
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  list-style: none;
+}
+
+.ingredient-shopping-content li + li {
+  margin-top: 0.15rem;
+}
+
+.shopping-item {
+  display: flex;
+  gap: 0.55rem;
+  align-items: flex-start;
+  padding: 0.15rem 0.1rem;
+  cursor: pointer;
+  line-height: 1.4;
+}
+
+.shopping-item input {
+  flex: 0 0 auto;
+  width: 1rem;
+  height: 1rem;
+  margin: 0.22rem 0 0;
+  accent-color: var(--accent);
+}
+
+.shopping-item input:checked + span {
+  color: var(--muted);
+  text-decoration: line-through;
+}
+
 code {
   padding: 0.1em 0.35em;
   background: var(--code-background);
@@ -337,5 +404,9 @@ code {
   .recipe-content h3 + p + ul {
     padding-block: 0.4rem;
     border: 0;
+  }
+
+  .ingredient-shopping > .ingredient-shopping-content {
+    display: block !important;
   }
 }

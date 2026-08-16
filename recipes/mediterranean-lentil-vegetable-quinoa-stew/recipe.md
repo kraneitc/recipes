@@ -41,7 +41,7 @@ last_made:
 - 2 tsp smoked paprika
 - 1½ tsp dried oregano
 - ½ tsp ground cinnamon
-- Chilli flakes, to taste
+- Chilli flakes, to taste (1/4 tsp for mild, 1/2 tsp for warm, or 1 tsp for hot)
 
 ### Lentil simmer
 
@@ -68,7 +68,7 @@ last_made:
 
 - 150–200 g baby spinach or chopped silverbeet
 - Juice of 1 lemon
-- Freshly ground black pepper, to taste
+- Freshly ground black pepper, to taste (1/4 tsp for mild, 1/2 tsp for warm, or 1 tsp for hot)
 - Fine salt, to taste if needed
 
 ### Rest and serve
@@ -77,6 +77,50 @@ last_made:
 
 - Reduced-fat Greek yoghurt, to serve, optional
 - Lemon wedges, to serve, optional
+
+## Ingredient Shopping
+
+### Fruit and vegetables
+
+- 2 large onions
+- 3 carrots
+- 3 celery stalks
+- 1 red capsicum
+- 5 garlic cloves
+- 1 medium zucchini
+- 150–200 g baby spinach or silverbeet
+- 1 lemon, plus extra for optional serving wedges
+
+### Canned goods
+
+- 2 × 400 g tins diced tomatoes
+- 1 × 400 g tin chickpeas
+
+### Rice, grains and pulses
+
+- 500 g dried brown or green lentils
+- 1 1/2 cups dry quinoa
+
+### Oils, stocks and sauces
+
+- 2 tbsp extra-virgin olive oil
+- 2 tbsp tomato paste
+- 1.5 L reduced-salt vegetable or chicken stock
+
+### Herbs and spices
+
+- 2 tsp ground cumin
+- 2 tsp smoked paprika
+- 1 1/2 tsp dried oregano
+- 1/2 tsp ground cinnamon
+- Chilli flakes, up to 1 tsp according to preferred heat
+- 2 bay leaves
+- Freshly ground black pepper, up to 1 tsp according to preferred heat
+- Fine salt, as needed
+
+### Dairy and chilled
+
+- Reduced-fat Greek yoghurt, to serve (optional)
 
 ## Method
 
@@ -112,3 +156,7 @@ last_made:
 - The stated cooking time is about 1 hour. The 20-minute preparation time in the metadata is an estimate based on the chopping and rinsing required.
 - Once cooled, divide the stew into individual portions. Refrigerate for up to 4 days or freeze for about 3 months.
 - The quinoa and lentils absorb more moisture during storage. Reheat the stew as-is for a very thick consistency, or loosen it with a small splash of water or stock.
+
+## Variations
+
+- The mild, warm, and hot chilli and black pepper quantities are untested starting points. Chilli-flake strength varies, so begin with less if using an unfamiliar product.

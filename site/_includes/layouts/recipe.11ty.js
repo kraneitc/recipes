@@ -1,4 +1,5 @@
 import {
+  collapseIngredientShopping,
   createRecipeJsonLd,
   parseRecipeContent,
   validateMetadata
@@ -43,6 +44,7 @@ function jsonForScript(value) {
 export function render(recipe) {
   validateMetadata(recipe);
   const parsedRecipe = parseRecipeContent(recipe.content, recipe);
+  const recipeContent = collapseIngredientShopping(recipe.content, recipe);
   const structuredData = createRecipeJsonLd(recipe, parsedRecipe);
   const totalMinutes = recipe.prep_minutes + recipe.cook_minutes;
   const yieldText = recipe.servings ? `${recipe.servings} servings` : recipe.yield;
@@ -77,7 +79,7 @@ export function render(recipe) {
     ${tagList}
   </header>
   <div class="recipe-content">
-    ${recipe.content}
+    ${recipeContent}
   </div>
   ${source}
 </article>
