@@ -15,47 +15,52 @@ last_made:
 
 ## Ingredients
 
-### First cooking activity
+### Onion and garlic
 
 *1 medium bowl (about 2 L).*
 
-- Ingredient and quantity
-- Ingredient and quantity
+- 1 onion, diced
+- 2 garlic cloves, minced
 
-### Second cooking activity
+### Tomatoes and stock
 
-- Ingredient and quantity
+- 400 g chopped tomatoes
+- 500 mL stock
 
-### To finish
+### Parsley and lemon
 
 *1 small bowl (about 500 mL).*
 
-- Ingredient and quantity
-- Ingredient and quantity
+- 2 tbsp chopped parsley
+- 1 lemon, cut into wedges
 
 ## Ingredient Shopping
 
 ### Fruit and vegetables
 
-- Ingredient and quantity
+- 1 onion
+- 2 garlic cloves
+- 1 lemon
+- 2 tbsp chopped parsley
 
 ### Pantry
 
-- Ingredient and quantity
+- 400 g chopped tomatoes
+- 500 mL stock
 
 ## Method
 
-### First cooking activity
+### Onion and garlic
 
-1. Use the prepared ingredients for the first cooking activity.
+1. Cook the prepared onion and garlic.
 
-### Second cooking activity
+### Tomatoes and stock
 
-2. Add or combine the prepared ingredients for the second cooking activity.
+2. Add the prepared tomatoes and stock.
 
-### To finish
+### Parsley and lemon
 
-3. Finish the dish with the prepared finishing ingredients.
+3. Serve with the prepared parsley and lemon.
 
 ## Notes
 

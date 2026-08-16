@@ -20,21 +20,21 @@ last_made:
 
 ## Ingredients
 
-### Potatoes
+### Potatoes and water
 
 *Add directly to a very large pot.*
 
 - 2.75 kg mashing potatoes, peeled and cut into even chunks
 - 1.75 L boiling water, keep separate
 
-### Onion
+### Onion and water
 
 *Add directly to a large non-stick frying pan.*
 
 - 1 large onion, finely diced
 - Water, 1 tbsp at a time as needed to prevent sticking, keep separate
 
-### Spices
+### Cumin, cayenne, garlic, and herbs
 
 *1 small bowl (about 125 mL).*
 
@@ -43,7 +43,7 @@ last_made:
 - 2 tsp garlic powder
 - 4 tsp Italian mixed herbs
 
-### To finish
+### Skim milk
 
 - 3/4 cup skim milk
 
@@ -67,20 +67,20 @@ last_made:
 
 ## Method
 
-### Potatoes
+### Potatoes and water
 
 1. Put the prepared potatoes in a very large pot and pour over the prepared boiling water. Return to the boil over high heat.
 2. Reduce the heat to maintain a steady simmer and cook for 15–20 minutes, until a table knife slides easily into the centre of the largest pieces. Start cooking the onion while the potatoes simmer.
 
-### Onion
+### Onion and water
 
 3. Put the prepared onion in a large non-stick frying pan over medium-low heat. Cook for 8–10 minutes, stirring frequently and adding the prepared water 1 tbsp at a time if the onion begins to stick, until soft and translucent.
 
-### Spices
+### Cumin, cayenne, garlic, and herbs
 
 4. Let any visible water evaporate, then add the prepared spice mixture. Cook, stirring constantly, for 30–60 seconds, until fragrant. Remove the pan from the heat.
 
-### To finish
+### Skim milk
 
 5. When the potatoes are tender, drain them thoroughly. Return them to the pot over low heat for 1–2 minutes, tossing gently, until the surface moisture has evaporated.
 6. Warm the prepared milk until steaming but not boiling. Remove the potatoes from the heat, pour in the milk, and mash until the desired texture is reached. Avoid overworking the potatoes, which can make them gluey.

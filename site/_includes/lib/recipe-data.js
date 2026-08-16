@@ -102,7 +102,7 @@ function collectGroups($, sectionName, listTag, data) {
         if (currentGroup.prepContainer) {
           throw recipeError(
             data,
-            `activity section \`${currentGroup.name}\` in \`## Ingredients\` has more than one prep-container indication.`,
+            `ingredient group \`${currentGroup.name}\` has more than one prep-container indication.`,
           );
         }
 
@@ -128,12 +128,12 @@ function collectGroups($, sectionName, listTag, data) {
   }
 
   if (groups.length === 0) {
-    throw recipeError(data, `\`## ${sectionName}\` must contain \`###\` activity sections.`);
+    throw recipeError(data, `\`## ${sectionName}\` must contain \`###\` group sections.`);
   }
 
   for (const group of groups) {
     if (group.items.length === 0) {
-      throw recipeError(data, `activity section \`${group.name}\` in \`## ${sectionName}\` has no list items.`);
+      throw recipeError(data, `group section \`${group.name}\` in \`## ${sectionName}\` has no list items.`);
     }
   }
 
@@ -156,7 +156,7 @@ export function parseRecipeContent(content, data) {
   if (JSON.stringify(ingredientNames) !== JSON.stringify(methodNames)) {
     throw recipeError(
       data,
-      "ingredient and method activity group headings must match exactly and appear in the same order.",
+      "ingredient and method group headings must match exactly and appear in the same order.",
     );
   }
 
@@ -164,7 +164,18 @@ export function parseRecipeContent(content, data) {
     if (/^Group\s+\d+/i.test(group.name) || /^\d+\s+—\s+/.test(group.name)) {
       throw recipeError(
         data,
-        `activity heading \`${group.name}\` must contain only the activity name, with no index number or \`Group\` prefix.`,
+        `ingredient-group heading \`${group.name}\` must contain only the ingredient description, with no index number or \`Group\` prefix.`,
+      );
+    }
+
+    if (
+      /^(?:(?:prepare|make|mix|combine|cook|bake|roast|fry|simmer|boil|melt|bloom|whip|assemble|chill|set|decorate|garnish|finish|serve|rest)\b|to (?:finish|serve)\b|final adjustments\b|(?:base|filling|sauce|crust|topping|assembly|thickening|serving)$)/i.test(
+        group.name,
+      )
+    ) {
+      throw recipeError(
+        data,
+        `ingredient-group heading \`${group.name}\` must describe its ingredients rather than an action or cooking stage.`,
       );
     }
   });

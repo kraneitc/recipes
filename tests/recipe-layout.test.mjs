@@ -21,11 +21,10 @@ function recipeData(overrides = {}) {
       url: "https://example.com/"
     },
     content: `<h2>Ingredients</h2>
-<h3>Base</h3>
+<h3>Onion and stock</h3>
 <p><em>1 medium bowl (about 2 L).</em></p>
 <ul><li>1 onion, diced</li><li>500 mL stock</li></ul>
-<h3>To finish</h3>
-<p><em>1 small bowl (about 250 mL).</em></p>
+<h3>Salt</h3>
 <ul><li>1 tsp salt</li></ul>
 <h2>Ingredient Shopping</h2>
 <h3>Fruit and vegetables</h3>
@@ -33,9 +32,9 @@ function recipeData(overrides = {}) {
 <h3>Pantry</h3>
 <ul><li>500 mL stock</li><li>1 tsp salt</li></ul>
 <h2>Method</h2>
-<h3>Base</h3>
+<h3>Onion and stock</h3>
 <ol><li>Cook the onion, then add the stock.</li></ol>
-<h3>To finish</h3>
+<h3>Salt</h3>
 <ol start="2"><li>Season with the salt.</li></ol>`,
     ...overrides
   };
@@ -63,7 +62,7 @@ test("renders recipe HTML and Schema.org data from grouped content", () => {
   assert.deepEqual(structuredData.recipeIngredient, ["1 onion, diced", "500 mL stock", "1 tsp salt"]);
   assert.deepEqual(
     structuredData.recipeInstructions.map((section) => section.name),
-    ["Base", "To finish"],
+    ["Onion and stock", "Salt"],
   );
   assert.equal(
     structuredData.recipeInstructions[0].itemListElement[0].text,
@@ -86,13 +85,13 @@ test("rejects a recipe without ingredient shopping groups", () => {
 
 test("rejects method sections that do not match ingredient sections", () => {
   const mismatchedContent = recipeData().content.replace(
-    "<h3>To finish</h3>\n<ol",
-    "<h3>Garnish</h3>\n<ol",
+    "<h3>Salt</h3>\n<ol",
+    "<h3>Pepper</h3>\n<ol",
   );
 
   assert.throws(
     () => render(recipeData({ content: mismatchedContent })),
-    /ingredient and method activity group headings must match exactly/,
+    /ingredient and method group headings must match exactly/,
   );
 });
 
@@ -104,22 +103,37 @@ test("rejects a break in continuous method numbering", () => {
 
   assert.throws(
     () => render(recipeData({ content: incorrectlyNumberedContent })),
-    /expected step 2 under `To finish` but found 3/,
+    /expected step 2 under `Salt` but found 3/,
   );
 });
 
-test("rejects indexed activity headings", () => {
-  const indexedContent = recipeData().content.replaceAll("<h3>Base</h3>", "<h3>1 — Base</h3>");
+test("rejects indexed ingredient-group headings", () => {
+  const indexedContent = recipeData().content.replaceAll(
+    "<h3>Onion and stock</h3>",
+    "<h3>1 — Onion and stock</h3>",
+  );
 
   assert.throws(
     () => render(recipeData({ content: indexedContent })),
-    /must contain only the activity name/,
+    /must contain only the ingredient description/,
+  );
+});
+
+test("rejects action-based ingredient-group headings", () => {
+  const actionHeadingContent = recipeData().content.replaceAll(
+    "<h3>Onion and stock</h3>",
+    "<h3>Prepare the base</h3>",
+  );
+
+  assert.throws(
+    () => render(recipeData({ content: actionHeadingContent })),
+    /must describe its ingredients rather than an action or cooking stage/,
   );
 });
 
 test("allows an ingredient group without optional suggested-container text", () => {
   const contentWithoutSuggestedContainer = recipeData().content.replace(
-    '<p><em>1 small bowl (about 250 mL).</em></p>\n',
+    '<p><em>1 medium bowl (about 2 L).</em></p>\n',
     "",
   );
 

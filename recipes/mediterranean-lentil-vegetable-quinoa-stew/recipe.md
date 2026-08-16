@@ -21,7 +21,7 @@ last_made:
 
 ## Ingredients
 
-### Vegetable base
+### Olive oil, onions, carrots, celery, and capsicum
 
 *1 large bowl (at least 3 L) for the vegetables.*
 
@@ -31,7 +31,7 @@ last_made:
 - 3 celery stalks, diced
 - 1 red capsicum, diced
 
-### Aromatics and spices
+### Garlic, tomato paste, and spices
 
 *1 small bowl (about 250 mL).*
 
@@ -44,7 +44,7 @@ last_made:
 - ½ tsp ground cinnamon
 - Chilli flakes, to taste (1/4 tsp for mild, 1/2 tsp for warm, or 1 tsp for hot)
 
-### Lentil simmer
+### Lentils, tomatoes, stock, and bay leaves
 
 - 500 g dried brown or green lentils, rinsed
 - 2 × 400 g tins diced tomatoes
@@ -52,7 +52,7 @@ last_made:
 - 4 tsp reduced-salt vegetable or chicken dry stock powder (1 tsp per 500 mL water)
 - 2 L boiling water, keep separate
 
-### Quinoa and remaining vegetables
+### Quinoa, zucchini, and chickpeas
 
 *1 large bowl (at least 2 L) for the quinoa, zucchini, and chickpeas.*
 
@@ -61,7 +61,7 @@ last_made:
 - 1 × 400 g tin chickpeas, drained and rinsed
 - Extra water, 125 mL at a time as needed, keep separate
 
-### Greens
+### Spinach or silverbeet
 
 - 150–200 g baby spinach or chopped silverbeet
 
@@ -72,7 +72,7 @@ last_made:
 - Juice of 1 lemon
 - Freshly ground black pepper, to taste (1/4 tsp for mild, 1/2 tsp for warm, or 1 tsp for hot)
 
-### Rest and serve
+### Yoghurt and lemon wedges
 
 - Reduced-fat Greek yoghurt, to serve, optional
 - Lemon wedges, to serve, optional
@@ -123,24 +123,24 @@ last_made:
 
 ## Method
 
-### Vegetable base
+### Olive oil, onions, carrots, celery, and capsicum
 
-1. Heat the olive oil in a large, heavy-based pot over medium heat. Add the prepared vegetable base and cook for 8–10 minutes, stirring occasionally, until softened.
+1. Heat the prepared olive oil in a large, heavy-based pot over medium heat. Add the prepared onions, carrots, celery, and capsicum and cook for 8–10 minutes, stirring occasionally, until softened.
 
-### Aromatics and spices
+### Garlic, tomato paste, and spices
 
 2. Add the prepared aromatics and spices. Cook for 1–2 minutes, stirring continuously, until fragrant.
 
-### Lentil simmer
+### Lentils, tomatoes, stock, and bay leaves
 
 3. Add the prepared lentils, tomatoes, bay leaves, and dry stock powder. Pour in the prepared boiling water and stir well to dissolve the stock powder. Bring to a gentle boil, reduce the heat, and simmer partially covered for 25–30 minutes. Stir occasionally, particularly as the stew begins to thicken.
 
-### Quinoa and remaining vegetables
+### Quinoa, zucchini, and chickpeas
 
 4. Add the prepared quinoa, zucchini, and chickpeas. Stir well and simmer uncovered for 18–20 minutes, stirring every few minutes, until the quinoa and lentils are tender.
 5. If the stew becomes too thick before the quinoa is cooked, add the separate water 125 mL at a time. Keep the hot stew slightly looser than the desired final consistency because it will thicken as it cools.
 
-### Greens
+### Spinach or silverbeet
 
 6. Stir in the prepared greens.
 
@@ -148,7 +148,7 @@ last_made:
 
 7. Add the prepared lemon juice and black pepper. Cook for 2–3 minutes, just until the greens wilt, then remove the bay leaves.
 
-### Rest and serve
+### Yoghurt and lemon wedges
 
 8. Turn off the heat and leave the stew to stand for 10–15 minutes. The quinoa will continue absorbing moisture; aim for a consistency closer to a soft casserole than a soup.
 9. Serve with the optional Greek yoghurt and lemon wedges.

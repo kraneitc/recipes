@@ -224,14 +224,14 @@ If there is no value for an optional field, leave it blank after the colon.
 
 Do not add a `#` title to the Markdown body. The HTML template creates the title from front matter.
 
-Mise-en-place is the guiding principle for writing and interpreting ingredient groups. Each group should represent a practical preparation batch for one cooking activity, ordered according to the cook's workflow rather than shopping categories or ingredient types. A cook should be able to prepare the groups before beginning and then follow the same sequence through the method.
+Mise-en-place is the guiding principle for writing and interpreting ingredient groups. Each group should represent a practical preparation batch for one cooking activity, ordered according to the cook's workflow rather than shopping categories or ingredient types. A cook should be able to prepare the groups before beginning and then follow the same sequence through the method. Name every group for the ingredients it contains, not for the activity or stage: use `Onion, garlic, and ginger`, not `Prepare the aromatic base`.
 
-Every ingredient activity group must have an identically named method group in the same position:
+Every ingredient group must have an identically named method group in the same position:
 
 ```markdown
 ## Ingredients
 
-### Aromatic base
+### Onion, garlic, and ginger
 
 *1 medium bowl (about 2 L).*
 
@@ -239,33 +239,33 @@ Every ingredient activity group must have an identically named method group in t
 - 3 garlic cloves, minced
 - 20 g ginger, grated
 
-### Braising liquid
+### Coconut milk and tamarind
 
 *1 medium jug (about 1 L).*
 
 - 400 mL coconut milk
 - 1 tbsp tamarind paste
 
-### To finish
+### Lime wedges
 
 - 1 lime, cut into wedges
 
 ## Method
 
-### Aromatic base
+### Onion, garlic, and ginger
 
-1. Cook the prepared aromatic base over medium heat until soft and fragrant, about 8 minutes.
+1. Cook the prepared onion, garlic, and ginger over medium heat until soft and fragrant, about 8 minutes.
 
-### Braising liquid
+### Coconut milk and tamarind
 
-2. Add the prepared braising liquid and bring to a gentle simmer.
+2. Add the prepared coconut milk and tamarind and bring to a gentle simmer.
 
-### To finish
+### Lime wedges
 
 3. Serve with the prepared lime wedges.
 ```
 
-Immediately below an ingredient activity heading, add an italic, unlabelled suggested-container line only when it usefully prompts the cook to batch two or more ingredients together. Give the container a practical size and include an approximate capacity when useful. Omit the line for a single ingredient, ingredients that go directly into the cooking vessel, or any group for which a separate staging container would add clutter rather than help.
+Immediately below an ingredient-group heading, add an italic, unlabelled suggested-container line only when it usefully prompts the cook to batch two or more ingredients together. Give the container a practical size and include an approximate capacity when useful. Omit the line for a single ingredient, ingredients that go directly into the cooking vessel, or any group for which a separate staging container would add clutter rather than help.
 
 If a suggested-container line would need to name multiple containers, reconsider the grouping. Prefer separate activity groups when ingredients cannot be combined. Keep multiple containers in one group only when the ingredients genuinely belong to the same cooking activity but must remain separate for food safety or recipe performance, and explain the separation clearly.
 
@@ -360,7 +360,7 @@ tags:
 
 ### Ingredient and method groups do not match
 
-Each ingredient `###` heading must exactly match the corresponding method `###` heading. Activity headings contain names only, with no index numbers or `Group` prefixes. Method steps use ordinary whole numbers in one continuous sequence across all activity sections.
+Each ingredient `###` heading must describe the ingredients in its group and exactly match the corresponding method `###` heading. Group headings contain names only, with no action labels, index numbers, or `Group` prefixes. Method steps use ordinary whole numbers in one continuous sequence across all method sections.
 
 ### Suggested-container text
 

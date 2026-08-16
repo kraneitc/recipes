@@ -21,7 +21,7 @@ last_made:
 
 ## Ingredients
 
-### Dry mixture
+### Oats, flour, sugar, and coconut
 
 *1 large bowl (about 3 L).*
 
@@ -37,7 +37,7 @@ last_made:
 - 125 g butter
 - 2 tbsp golden syrup
 
-### Bicarbonate mixture and dough
+### Bicarbonate of soda and water
 
 *1 small heatproof cup (about 250 mL).*
 
@@ -61,7 +61,7 @@ last_made:
 
 ## Method
 
-### Dry mixture
+### Oats, flour, sugar, and coconut
 
 1. Preheat the oven to 160°C fan-forced (180°C conventional). Line two baking trays with baking paper.
 2. Combine the prepared rolled oats, flour, brown sugar, and coconut in the large bowl.
@@ -70,7 +70,7 @@ last_made:
 
 3. Put the prepared butter and golden syrup in a small saucepan. Melt together over low heat, stirring until smooth, then remove from the heat.
 
-### Bicarbonate mixture and dough
+### Bicarbonate of soda and water
 
 4. Stir the prepared bicarbonate of soda into the boiling water in the heatproof cup; the mixture will foam.
 5. Carefully stir the bicarbonate mixture into the melted butter and golden syrup.

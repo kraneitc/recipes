@@ -21,7 +21,7 @@ last_made:
 
 ## Ingredients
 
-### Onion base
+### Oil and onions
 
 - 4 tbsp neutral oil
 - 2 large onions, finely chopped
@@ -37,7 +37,7 @@ last_made:
 - 4 garlic cloves, minced
 - 2 tbsp grated fresh ginger, or 2 tsp ground ginger
 
-### Spices
+### Curry powder, cumin, and coriander
 
 *1 small bowl (about 250 mL).*
 
@@ -49,12 +49,12 @@ last_made:
 
 - 2 tbsp tomato paste
 
-### Chicken
+### Chicken and salt
 
 - 1 kg chicken thighs, cut into large chunks
 - Salt, to taste, keep separate
 
-### Sauce
+### Coconut milk, coconut cream, and stock
 
 *1 large jug (about 2 L).*
 
@@ -62,7 +62,7 @@ last_made:
 - 1 x 400 mL can coconut cream
 - 1 cup chicken stock or water
 
-### Thickening
+### Mango chutney, sultanas, and almond meal
 
 *1 small bowl (about 500 mL).*
 
@@ -70,7 +70,7 @@ last_made:
 - 4 tbsp sultanas
 - 3 tbsp almond meal (ground almonds)
 
-### Vegetables
+### Mixed vegetables
 
 - 4 cups frozen mixed vegetables
 
@@ -78,7 +78,7 @@ last_made:
 
 - 1–2 tbsp butter
 
-### Final adjustments
+### Extra chutney and chilli
 
 - Up to 2 tbsp mango chutney, to taste, keep separate
 - Chilli flakes or finely chopped small fresh chilli, to taste (optional), keep separate; use 1/4 tsp flakes or 1/2 chilli for mild, 1/2 tsp flakes or 1 chilli for warm, or 1 tsp flakes or 2 chillies for hot
@@ -130,7 +130,7 @@ last_made:
 
 ## Method
 
-### Onion base
+### Oil and onions
 
 1. Heat the prepared oil in a large, heavy pot over medium heat. Add the onion and cook for 10–12 minutes, stirring occasionally, until soft and lightly golden.
 
@@ -142,28 +142,28 @@ last_made:
 
 3. Add the garlic and ginger and cook, stirring, for 30 seconds.
 
-### Spices
+### Curry powder, cumin, and coriander
 
-4. Add the prepared spices and stir to coat the aromatic base.
+4. Add the prepared curry powder, cumin, and coriander and stir to coat the aromatic base.
 
 ### Tomato paste
 
 5. Add the tomato paste. Cook the spices and tomato paste together for 1–2 minutes, stirring constantly, until fragrant and slightly darkened. This deepens the colour and cooks out the raw tomato flavour.
 
-### Chicken
+### Chicken and salt
 
 6. Add the chicken and season with some of the prepared salt. Stir until every piece is coated and lightly coloured; the chicken does not need to cook through at this stage.
 
-### Sauce
+### Coconut milk, coconut cream, and stock
 
 7. Pour in the prepared coconut milk, coconut cream, and stock mixture and stir well.
 
-### Thickening
+### Mango chutney, sultanas, and almond meal
 
 8. Add the prepared chutney, sultanas, and almond meal, stir well, and bring to a gentle simmer.
 9. Reduce the heat and simmer uncovered for 35–45 minutes, stirring occasionally. Keep the sauce gently bubbling rather than at a rolling boil. It is ready for the vegetables when it coats the back of a spoon and oil begins to separate around the edges.
 
-### Vegetables
+### Mixed vegetables
 
 10. Stir in the frozen mixed vegetables. Simmer for 8–10 minutes, until the vegetables are tender and heated through and the chicken is cooked through.
 
@@ -171,7 +171,7 @@ last_made:
 
 11. Turn off the heat and stir in 1 tbsp of the prepared butter. Add the remaining butter for extra richness, if desired.
 
-### Final adjustments
+### Extra chutney and chilli
 
 12. Taste and adjust with the prepared salt, optional chilli, and up to 2 tbsp extra chutney for more sweetness.
 
