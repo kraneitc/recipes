@@ -1,6 +1,6 @@
 services:
   updater:
-    image: node:24-alpine
+    image: node:24-bookworm
     container_name: recipes-updater
     working_dir: /repo
     restart: unless-stopped
@@ -11,8 +11,6 @@ services:
       - /bin/sh
       - -c
       - |
-        apk add --no-cache git || exit 1
-
         if [ ! -d /repo/.git ]; then
           git clone --branch main --single-branch \
             https://github.com/kraneitc/recipes.git /repo || exit 1
