@@ -102,6 +102,13 @@ h3 {
   max-width: 52rem;
 }
 
+.pronunciation {
+  margin: -0.5rem 0 1rem;
+  color: var(--muted);
+  font-family: system-ui, sans-serif;
+  font-size: 0.85rem;
+}
+
 .collection-header > p:last-child,
 .recipe-description {
   max-width: 42rem;
