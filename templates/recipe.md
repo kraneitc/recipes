@@ -15,19 +15,19 @@ last_made:
 
 ## Ingredients
 
-### Onion and garlic
+### Aromatics
 
 *1 medium bowl (about 2 L).*
 
 - 1 onion, diced
 - 2 garlic cloves, minced
 
-### Tomatoes and stock
+### Sauce
 
 - 400 g chopped tomatoes
 - 500 mL stock
 
-### Parsley and lemon
+### Garnish
 
 *1 small bowl (about 500 mL).*
 
@@ -50,15 +50,15 @@ last_made:
 
 ## Method
 
-### Onion and garlic
+### Aromatics
 
 1. Cook the prepared onion and garlic.
 
-### Tomatoes and stock
+### Sauce
 
 2. Add the prepared tomatoes and stock.
 
-### Parsley and lemon
+### Garnish
 
 3. Serve with the prepared parsley and lemon.
 

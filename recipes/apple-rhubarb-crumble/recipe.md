@@ -21,7 +21,7 @@ last_made:
 
 ## Ingredients
 
-### Apple, rhubarb, sugar, lemon, vanilla, and cornflour
+### Filling
 
 *1 large bowl (about 4 L).*
 
@@ -33,7 +33,7 @@ last_made:
 - 1 tsp ground cinnamon
 - 1/4 tsp salt
 
-### Flour, almond meal, oats, sugar, and seasonings
+### Crumble
 
 *1 large bowl (about 4 L).*
 
@@ -44,15 +44,15 @@ last_made:
 - 1 tsp ground cinnamon
 - 1/4 tsp salt
 
-### Cold butter
+### Butter
 
 - 200 g cold butter, cubed
 
-### Optional cinnamon
+### Cinnamon
 
 - 1 small pinch ground cinnamon (optional)
 
-### Ice cream, cream, custard, or yoghurt
+### Accompaniments
 
 - Vanilla ice cream, thick cream, custard, or Greek yoghurt, to serve (optional)
 
@@ -85,28 +85,28 @@ last_made:
 
 ## Method
 
-### Apple, rhubarb, sugar, lemon, vanilla, and cornflour
+### Filling
 
 1. Preheat the oven to 180°C conventional (170°C fan-forced).
 2. Combine the prepared apple and rhubarb, brown sugar, lemon juice, vanilla, cornflour, cinnamon, and salt in the large bowl. Mix until the fruit is evenly coated.
 3. Transfer the filling to a large baking dish, approximately 30 × 20 cm or a similar capacity, and spread it evenly.
 
-### Flour, almond meal, oats, sugar, and seasonings
+### Crumble
 
 4. Combine the prepared flour, almond meal, oats, brown sugar, cinnamon, and salt in the large bowl.
 
-### Cold butter
+### Butter
 
 5. Add the cold butter to the prepared dry ingredients and rub it in with your fingertips until the mixture resembles coarse crumbs, leaving some larger buttery lumps to form crunchy clusters.
 6. Scatter the crumble mixture loosely and evenly over the prepared filling. Do not press it down.
 7. Bake for 50–60 minutes, until the topping is deep golden brown and the fruit juices are bubbling around the edges. If the topping browns too quickly, cover it loosely with foil for the final 15 minutes.
 
-### Optional cinnamon
+### Cinnamon
 
 8. Rest the crumble for 15–20 minutes before serving so the filling can thicken while the topping stays crisp.
 9. Sprinkle with the prepared pinch of cinnamon, if using.
 
-### Ice cream, cream, custard, or yoghurt
+### Accompaniments
 
 10. Serve with the chosen chilled accompaniment, if using.
 

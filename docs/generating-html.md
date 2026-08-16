@@ -224,14 +224,14 @@ If there is no value for an optional field, leave it blank after the colon.
 
 Do not add a `#` title to the Markdown body. The HTML template creates the title from front matter.
 
-Mise-en-place is the guiding principle for writing and interpreting ingredient groups. Each group should represent a practical preparation batch for one cooking activity, ordered according to the cook's workflow rather than shopping categories or ingredient types. A cook should be able to prepare the groups before beginning and then follow the same sequence through the method. Name every group for the ingredients it contains, not for the activity or stage: use `Onion, garlic, and ginger`, not `Prepare the aromatic base`.
+Mise-en-place is the guiding principle for writing and interpreting ingredient groups. Each group should represent a practical preparation batch for one cooking activity, ordered according to the cook's workflow rather than shopping categories or ingredient types. A cook should be able to prepare the groups before beginning and then follow the same sequence through the method. Give every group a short, generic noun name for the prepared batch or dish component, such as `Aromatics`, `Filling`, `Sauce`, or `Garnish`. Do not list the ingredients in the heading or phrase it as an instruction.
 
 Every ingredient group must have an identically named method group in the same position:
 
 ```markdown
 ## Ingredients
 
-### Onion, garlic, and ginger
+### Aromatics
 
 *1 medium bowl (about 2 L).*
 
@@ -239,28 +239,28 @@ Every ingredient group must have an identically named method group in the same p
 - 3 garlic cloves, minced
 - 20 g ginger, grated
 
-### Coconut milk and tamarind
+### Braising liquid
 
 *1 medium jug (about 1 L).*
 
 - 400 mL coconut milk
 - 1 tbsp tamarind paste
 
-### Lime wedges
+### Garnish
 
 - 1 lime, cut into wedges
 
 ## Method
 
-### Onion, garlic, and ginger
+### Aromatics
 
 1. Cook the prepared onion, garlic, and ginger over medium heat until soft and fragrant, about 8 minutes.
 
-### Coconut milk and tamarind
+### Braising liquid
 
 2. Add the prepared coconut milk and tamarind and bring to a gentle simmer.
 
-### Lime wedges
+### Garnish
 
 3. Serve with the prepared lime wedges.
 ```
@@ -360,7 +360,7 @@ tags:
 
 ### Ingredient and method groups do not match
 
-Each ingredient `###` heading must describe the ingredients in its group and exactly match the corresponding method `###` heading. Group headings contain names only, with no action labels, index numbers, or `Group` prefixes. Method steps use ordinary whole numbers in one continuous sequence across all method sections.
+Each ingredient `###` heading must be a short, generic name for its batch or component and exactly match the corresponding method `###` heading. Do not enumerate ingredients or use an instruction as a heading. Group headings also contain no index numbers or `Group` prefixes. Method steps use ordinary whole numbers in one continuous sequence across all method sections.
 
 ### Suggested-container text
 

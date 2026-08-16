@@ -42,10 +42,10 @@ Every recipe should contain:
 
 **Mise-en-place is the guiding principle for writing and interpreting every recipe's ingredient groups.** Each group should represent a practical preparation batch for one cooking activity: ingredients the cook can measure, prepare, and, where useful and safe, combine before starting that activity. Write and interpret groups from the cook's workflow rather than from shopping categories or ingredient types.
 
-Activity-based ingredient grouping is required for every recipe. Use it to make the mise-en-place sequence obvious before cooking begins and easy to follow as the method progresses. Although the grouping follows the cooking activity, each group heading must describe the ingredients in that group rather than name the activity.
+Activity-based ingredient grouping is required for every recipe. Use it to make the mise-en-place sequence obvious before cooking begins and easy to follow as the method progresses. Although the grouping follows the cooking activity, each heading should be a short, generic name for the prepared batch or dish component.
 
 - Under `## Ingredients`, divide ingredients into named `###` sections based on the cooking activity in which they are used.
-- Name each section for the ingredients it contains, such as `Onion, garlic, and ginger`, `Coconut milk and stock`, or `Lime wedges`. Do not use an action or stage name such as `Prepare the aromatics`, `Make the sauce`, or `To finish`.
+- Use concise noun headings such as `Aromatics`, `Filling`, `Sauce`, or `Garnish`. Do not enumerate the ingredients in the heading, and do not write an instruction such as `Prepare the aromatics` or `Make the sauce`.
 - When the ingredients in a group can be added directly to an initially empty pan, pot, or saucepan, add an italic, unlabelled instruction immediately below the ingredient-group heading, formatted like suggested-container text and naming the vessel, such as `*Add directly to a small saucepan.*`. Do not repeat this instruction below the matching method heading. Do not use this note when the vessel already contains ingredients from an earlier activity, or when one ingredient must heat or cook before the rest of the group is added.
 - Add an italic, unlabelled suggested-container line immediately below an ingredient-group heading only when it gives the cook a useful prompt to batch two or more ingredients together, such as `*1 medium bowl (about 2 L).*`. Do not add this text merely to satisfy the format, and normally omit it when the group contains only one ingredient or its ingredients go directly into the cooking vessel.
 - Treat a suggested-container line that names multiple containers as a prompt to reconsider the grouping. Prefer separate activity groups when ingredients cannot be batched together. Retain multiple containers in one group only when the ingredients genuinely belong to the same cooking activity but must remain separate for food safety or recipe performance; explain the separation clearly.
@@ -57,7 +57,7 @@ Activity-based ingredient grouping is required for every recipe. Use it to make 
 - If an ingredient is used in more than one activity, split its quantity between the relevant groups. Avoid an ambiguous `divided` quantity.
 - Do not group ingredients by shopping category or ingredient type unless that grouping also matches a cooking activity.
 
-Under `## Method`, create matching `###` sections with the same ingredient-descriptive names, in the same order as the ingredient sections. Put an ordered Markdown list beneath each group heading. Number method steps sequentially across the entire recipe using ordinary whole numbers: `1`, `2`, `3`, and so on. When a new section begins, start its Markdown list at the next number rather than restarting at `1`. Each step must make clear which prepared section or container is being used. A method section may use an earlier ingredient section again, but it must not introduce an unlisted ingredient.
+Under `## Method`, create matching `###` sections with the same concise names, in the same order as the ingredient sections. Put an ordered Markdown list beneath each group heading. Number method steps sequentially across the entire recipe using ordinary whole numbers: `1`, `2`, `3`, and so on. When a new section begins, start its Markdown list at the next number rather than restarting at `1`. Each step must make clear which prepared section or container is being used. A method section may use an earlier ingredient section again, but it must not introduce an unlisted ingredient.
 
 Make quantities, timing, temperature, and visual or tactile cues clear in the method.
 
@@ -109,7 +109,7 @@ Before finishing a change:
 
 - Check that every ingredient is accounted for in the method.
 - Check that quantities in the method agree with the ingredient list.
-- Check that every ingredient-group heading describes the ingredients in its group rather than an action or cooking stage.
+- Check that every ingredient-group heading is a short, generic name for the prepared batch or dish component, without enumerating ingredients or giving an instruction.
 - Check that ingredient and method group headings match, contain no index numbers or `Group` prefixes, and appear in the same order.
 - Check that method steps use ordinary whole numbers in one continuous sequence across all method sections.
 - Check that any suggested-container line is genuinely useful for batching ingredients, has a practical size and enough capacity, and does not hide ingredients that would be clearer in separate activity groups.

@@ -21,7 +21,7 @@ last_made:
 
 ## Ingredients
 
-### Mince, breadcrumbs, egg, and seasonings
+### Meatballs
 
 *1 large bowl (about 3 L).*
 
@@ -37,18 +37,18 @@ last_made:
 - 1/2 tsp hot cayenne pepper
 - 1/2 tsp black pepper
 
-### Olive oil
+### Oil
 
 *Add directly to a large cast-iron skillet.*
 
 - 2 tbsp olive oil
 
-### Onion and tomatoes
+### Vegetables
 
 - 1 onion, peeled and cut into 8 wedges
 - 2 fresh tomatoes, each cut into 8 wedges
 
-### Tinned tomatoes, pasta sauce, and seasonings
+### Sauce
 
 *1 large bowl or jug (about 3 L).*
 
@@ -60,7 +60,7 @@ last_made:
 - 1 tsp hot cayenne pepper
 - 1/2 tsp black pepper
 
-### Spaghetti, water, and salt
+### Pasta
 
 - 1 x 500 g packet dried spaghetti
 - Water, as directed on the packet
@@ -102,26 +102,26 @@ last_made:
 
 ## Method
 
-### Mince, breadcrumbs, egg, and seasonings
+### Meatballs
 
 1. Preheat the oven to 180°C fan-forced. Combine the prepared mince, breadcrumbs, egg, garlic, onion, herbs, and spices in the large bowl, mixing just until evenly incorporated.
 2. Shape the mixture into about 16 evenly sized meatballs.
 
-### Olive oil
+### Oil
 
 3. Spread the prepared olive oil over the base of a large cast-iron skillet, then arrange the meatballs in a single layer with a little space between them.
 
-### Onion and tomatoes
+### Vegetables
 
 4. Add the prepared onion and fresh tomato wedges to the skillet, distributing them around the meatballs.
 
-### Tinned tomatoes, pasta sauce, and seasonings
+### Sauce
 
 5. In the prepared large bowl or jug, combine the tinned tomatoes, pasta sauces, smoked paprika, Italian mixed herbs, chilli flakes, hot cayenne pepper, and black pepper. Mix well, then pour the sauce evenly into the skillet.
 6. Place the skillet in the preheated oven and bake for 20 minutes.
 7. Carefully remove the skillet and stir the meatballs and sauce. Return it to the oven for another 20 minutes, until the sauce is bubbling and the largest meatball is cooked through.
 
-### Spaghetti, water, and salt
+### Pasta
 
 8. While the skillet cooks for its final 20 minutes, bring the prepared water to the boil in a large pot. Add the prepared salt, if using, then add the spaghetti and cook according to the packet directions until al dente.
 9. Reserve a little cooking water if desired, then drain the spaghetti. Divide it among serving bowls and spoon over the spicy meatballs and sauce. If the sauce is thicker than preferred, loosen each serving with a little of the reserved cooking water.

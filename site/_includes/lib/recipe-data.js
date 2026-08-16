@@ -164,18 +164,18 @@ export function parseRecipeContent(content, data) {
     if (/^Group\s+\d+/i.test(group.name) || /^\d+\s+—\s+/.test(group.name)) {
       throw recipeError(
         data,
-        `ingredient-group heading \`${group.name}\` must contain only the ingredient description, with no index number or \`Group\` prefix.`,
+        `ingredient-group heading \`${group.name}\` must contain only the group name, with no index number or \`Group\` prefix.`,
       );
     }
 
     if (
-      /^(?:(?:prepare|make|mix|combine|cook|bake|roast|fry|simmer|boil|melt|bloom|whip|assemble|chill|set|decorate|garnish|finish|serve|rest)\b|to (?:finish|serve)\b|final adjustments\b|(?:base|filling|sauce|crust|topping|assembly|thickening|serving)$)/i.test(
+      /^(?:(?:prepare|make|mix|combine|cook|bake|roast|fry|simmer|boil|melt|bloom|whip|assemble|chill|set|decorate|finish|serve|rest)\s+|to (?:finish|serve)\b|final adjustments\b)/i.test(
         group.name,
       )
     ) {
       throw recipeError(
         data,
-        `ingredient-group heading \`${group.name}\` must describe its ingredients rather than an action or cooking stage.`,
+        `ingredient-group heading \`${group.name}\` must be a concise component name rather than an instruction.`,
       );
     }
   });
