@@ -12,6 +12,7 @@ This repository is the source of truth for a personal recipe collection. Keep re
 - Use `meals/` to combine reusable recipes into a coordinated meal.
 - Use `menus/` for multi-meal plans, rotations, holidays, and events.
 - Store general cooking information in `reference/`.
+- Store repository and HTML-generation documentation in `docs/`.
 - Start new content from the files in `templates/`.
 - Use lowercase kebab-case for directory and file names.
 - Do not add category subdirectories under `recipes/`; use metadata tags instead.
@@ -22,18 +23,20 @@ Every recipe should contain:
 
 1. YAML front matter with:
    - `title`
+   - `description`
    - `status`: `draft`, `tested`, or `favorite`
    - `servings` or `yield`
-   - `prep_time`
-   - `cook_time`
+   - `prep_minutes` as a non-negative integer
+   - `cook_minutes` as a non-negative integer
    - `tags`
+   - `image` and `image_alt`, when a main image exists
    - `source`, when known
+   - `source_url`, when known
    - `last_made`, when known, in `YYYY-MM-DD` format
-2. A short description.
-3. `## Ingredients`.
-4. `## Method` with numbered steps.
-5. `## Notes` when useful.
-6. `## Variations` when tested alternatives exist.
+2. `## Ingredients`.
+3. `## Method` with numbered steps.
+4. `## Notes` when useful.
+5. `## Variations` when tested alternatives exist.
 
 ### Activity-based ingredient groups
 
@@ -50,6 +53,19 @@ Activity-based ingredient grouping is required for every recipe. The grouping mu
 Under `## Method`, create matching `###` activity sections with the same group numbers and names, in the same order as the ingredient groups. Put numbered method steps beneath the matching activity heading. Each step must make clear which prepared group or container is being used. A method section may use an earlier group again, but it must not introduce an unlisted ingredient.
 
 Make quantities, timing, temperature, and visual or tactile cues clear in the method.
+
+## HTML compatibility
+
+- Markdown files are the source of truth. Never edit generated files in `_site/`.
+- Recipe Markdown must not contain a `#` heading. The HTML layout creates the single page title from the front matter `title`.
+- Use `##` for major recipe sections and `###` for activity groups. Do not skip heading levels.
+- Keep ingredients as unordered Markdown lists and method steps as ordered Markdown lists.
+- Do not embed raw HTML or template syntax in recipe Markdown.
+- Use relative image paths, such as `images/rendang.jpg`, and provide meaningful `image_alt` text.
+- Keep front matter field names and value types consistent with `templates/recipe.md`.
+- Preserve the exact `## Ingredients` and `## Method` headings because the HTML build uses them to generate structured recipe data.
+- Run `npm test` and `npm run build` after changing the site generator, templates, or recipe format.
+- Consult `docs/generating-html.md` for the complete local build and preview process.
 
 ## Meals and menus
 
@@ -89,5 +105,6 @@ Before finishing a change:
 - Check that ingredient and method group headings match and appear in the same order.
 - Check that each ingredient group can be staged in a bowl or container as written, noting anything that must remain separate.
 - Check headings, lists, links, and YAML front matter.
+- Run `npm run build` to validate recipe metadata and generate HTML when Node.js dependencies are available.
 - Review the Git diff for unintended changes.
 - Report ambiguity that could materially affect the result.

@@ -1,0 +1,36 @@
+---
+layout: layouts/base.njk
+title: Recipes
+description: Browse the personal recipe collection.
+permalink: /index.html
+---
+
+<section class="collection-header">
+  <p class="eyebrow">Personal cookbook</p>
+  <h1>Recipes</h1>
+  <p>Individual recipes stay reusable; meals and menus can link them together without duplicating instructions.</p>
+</section>
+
+{% if collections.recipes.length %}
+  <ul class="recipe-grid">
+    {% for recipe in collections.recipes %}
+      <li>
+        <article class="recipe-card">
+          <p class="recipe-status">{{ recipe.data.status }}</p>
+          <h2><a href="{{ recipe.url | url }}">{{ recipe.data.title }}</a></h2>
+          <p>{{ recipe.data.description }}</p>
+          <p class="recipe-card-meta">
+            {% if recipe.data.servings %}{{ recipe.data.servings }} servings{% else %}{{ recipe.data.yield }}{% endif %}
+            <span aria-hidden="true">·</span>
+            {{ (recipe.data.prep_minutes + recipe.data.cook_minutes) | formatMinutes }} total
+          </p>
+        </article>
+      </li>
+    {% endfor %}
+  </ul>
+{% else %}
+  <section class="empty-state">
+    <h2>No recipes yet</h2>
+    <p>Copy <code>templates/recipe.md</code> into a new folder under <code>recipes/</code> to add the first recipe.</p>
+  </section>
+{% endif %}

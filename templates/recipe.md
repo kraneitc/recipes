@@ -1,17 +1,17 @@
 ---
 title: Recipe title
+description: A short description of the dish.
 status: draft
 servings: 4
-prep_time: 15 minutes
-cook_time: 30 minutes
+prep_minutes: 15
+cook_minutes: 30
 tags: []
+image:
+image_alt:
 source:
+source_url:
 last_made:
 ---
-
-# Recipe title
-
-A short description of the dish.
 
 ## Ingredients
 

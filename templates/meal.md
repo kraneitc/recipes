@@ -10,7 +10,7 @@ A short description of the meal.
 
 ## Components
 
-- [Recipe name](../recipes/recipe-slug/recipe.md) — 1 recipe
+- Replace this text with a relative link to the component recipe — 1 recipe
 
 ## Coordination
 
